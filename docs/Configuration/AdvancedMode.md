@@ -174,9 +174,7 @@ Below is an example for collecting a GitLab repo and a Jira board in parallel. I
                 "boardId":8,
                 "connectionId":1
             }
-        }
-    ],
-    [
+        },
         {
             "Plugin":"gitlab",
             "Options":{
@@ -242,9 +240,7 @@ Below is an example for collecting a TAPD workspace and a GitLab repo in paralle
                 "workspaceId": 6***14,
                 "connectionId": 1
             }
-        }
-    ],
-    [
+        },
         {
             "Plugin":"gitlab",
             "Options":{
