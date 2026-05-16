@@ -10,6 +10,14 @@ description: >
 dbt (data build tool) enables analytics engineers to transform data in their warehouses by simply writing select statements. dbt handles turning these select statements into tables and views.
 dbt does the T in ELT (Extract, Load, Transform) processes – it doesn’t extract or load data, but it’s extremely good at transforming data that’s already loaded into your warehouse.
 
+
+The push API is disabled by default. To enable it safely, you must:
+- configure `PUSH_API_ALLOWED_TABLES` with the specific non-internal tables that may be written
+- send a Bearer API key whose `allowedPath` matches the `/push/...` endpoint you are calling
+
+Internal `_devlake_*` tables are never writable through this endpoint, even if
+they are listed in `PUSH_API_ALLOWED_TABLES`.
+
 ## User setup<a id="user-setup"></a>
 - If you plan to use this product, you need to install some environments first.
 
