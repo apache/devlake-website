@@ -16,7 +16,6 @@ description: >
   </h5>
 </div>
 
-**View live metrics on [🔗 Grafana](https://grafana-lake.demo.devlake.io/d/W8AiDFQnk/jenkins?orgId=1&from=now-6M&to=now)**
 
 ![Jenkins](./Jenkins.png)
 

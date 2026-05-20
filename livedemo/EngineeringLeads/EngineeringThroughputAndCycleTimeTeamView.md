@@ -16,7 +16,6 @@ description: >
   </h5>
 </div>
 
-**View live metrics on [🔗 Grafana](https://grafana-lake.demo.devlake.io/grafana/d/nJ1ijje7k/engineering-throughput-and-cycle-time-team-view?orgId=1)**
 
 ![EngineeringThroughputAndCycleTimeTeamView](./EngineeringThroughputAndCycleTimeTeamView.png)
 

@@ -16,7 +16,6 @@ description: >
   </h5>
 </div>
 
-**View live metrics on [🔗 Grafana](https://grafana-lake.demo.devlake.io/grafana/d/ZF6abXX7z/engineering-overview?orgId=1)**
 
 ![EngineeringOverview](./EngineeringOverview.png)
 

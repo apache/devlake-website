@@ -16,7 +16,6 @@ description: >
   </h5>
 </div>
 
-**View live metrics on [🔗 Grafana](https://grafana-lake.demo.devlake.io/grafana/d/msSjEq97z/gitlab?orgId=1)**
 
 ![GitLab](./GitLab.png)
 

@@ -16,7 +16,6 @@ description: >
   </h5>
 </div>
 
-**View live metrics on [🔗 Grafana](https://grafana-lake.demo.devlake.io/grafana/d/VTr6Y_q7z/weekly-community-retro?orgId=1&from=now-6M&to=now)**
 
 ![WeeklyCommunityRetro](./WeeklyCommunityRetro.png)
 
