@@ -744,7 +744,63 @@ The names of tables in the 'Code Quality' domain will start with a prefix cq\_
 | `cognitive_complexity`                     | bigint   |            | Cognitive complexity of the file                                |         |
 | `num_of_lines`                             | bigint   |            | Num of lines of the file                                        |         |
 
-### Domain 6 - Cross-Domain Entities
+<br/>
+
+### Domain 6 - Quality Assurance
+
+#### qa_apis
+
+This table stores information about APIs for quality assurance testing.
+
+| **field**           | **type**                     | **length** | **description**                                                                 | **key** |
+|:--------------------|:-----------------------------|:-----------|:--------------------------------------------------------------------------------|:--------|
+| `id`                | varchar                      | 500        | Unique identifier for the API                                                  | PK      |
+| `name`              | varchar                      | 255        | Name of the API                                                                |         |
+| `path`              | varchar                      | 255        | API endpoint path                                                              |         |
+| `method`            | varchar                      | 255        | HTTP method (GET, POST, PUT, DELETE, etc.)                                     |         |
+| `create_time`       | timestamp with time zone     |            | When the API was created                                                       |         |
+| `creator_id`        | varchar                      | 255        | ID of the user who created the API                                             |         |
+| `qa_project_id`     | varchar                      | 255        | ID of the QA project this API belongs to                                       |         |
+
+#### qa_projects
+
+This table stores information about quality assurance projects.
+
+| **field**      | **type**                     | **length** | **description**                      | **key** |
+|:---------------|:-----------------------------|:-----------|:-------------------------------------|:--------|
+| `id`           | varchar                      | 500        | Unique identifier for the project    | PK      |
+| `name`         | varchar                      | 255        | Name of the QA project               |         |
+
+#### qa_test_cases
+
+This table stores information about test cases in quality assurance.
+
+| **field**       | **type**                     | **length** | **description**                      | **key** |
+|:----------------|:-----------------------------|:-----------|:-------------------------------------|:--------|
+| `id`            | varchar                      | 500        | Unique identifier for the test case  | PK      |
+| `name`          | varchar                      | 255        | Name of the test case                |         |
+| `create_time`   | timestamp with time zone     |            | When the test case was created       |         |
+| `creator_id`    | varchar                      | 255        | ID of the user who created the case  |         |
+| `type`          | varchar                      | 255        | Type of test case (api or functional)|         |
+| `qa_api_id`     | varchar                      | 255        | ID of the related API (required when type is api) |         |
+| `qa_project_id` | varchar                      | 255        | ID of the QA project                 |         |
+
+#### qa_test_case_executions
+
+This table stores information about test case executions in quality assurance.
+
+| **field**          | **type**                     | **length** | **description**                          | **key** |
+|:-------------------|:-----------------------------|:-----------|:-----------------------------------------|:--------|
+| `id`               | varchar                      | 500        | Unique identifier for the execution      | PK      |
+| `qa_project_id`    | varchar                      | 255        | ID of the QA project                     |         |
+| `qa_test_case_id`  | varchar                      | 255        | ID of the test case being executed       |         |
+| `create_time`      | timestamp with time zone     |            | When the execution record was created    |         |
+| `start_time`       | timestamp with time zone     |            | When the test execution started          |         |
+| `finish_time`      | timestamp with time zone     |            | When the test execution finished         |         |
+| `creator_id`       | varchar                      | 255        | ID of the user who executed the test     |         |
+| `status`           | varchar                      | 255        | Execution status (PENDING, IN_PROGRESS, SUCCESS, FAILED)  |         |
+
+### Domain 7 - Cross-Domain Entities
 
 These entities are used to map entities between different domains. They are the key players to break data isolation.
 
@@ -896,62 +952,6 @@ This table can support tag-based analysis, for instance, '_No. of bugs closed in
 | `old_ref_commit_sha` | char     | 40         | The commit old ref points to at the time of collection |              |
 | `issue_number`       | varchar  | 255        | Issue number                                           |              |
 | `issue_id`           | varchar  | 255        | Issue id                                               | FK_issues.id |
-
-<br/>
-
-### Domain 7 - Quality Assurance
-
-#### qa_apis
-
-This table stores information about APIs for quality assurance testing.
-
-| **field**           | **type**                     | **length** | **description**                                                                 | **key** |
-|:--------------------|:-----------------------------|:-----------|:--------------------------------------------------------------------------------|:--------|
-| `id`                | varchar                      | 500        | Unique identifier for the API                                                  | PK      |
-| `name`              | varchar                      | 255        | Name of the API                                                                |         |
-| `path`              | varchar                      | 255        | API endpoint path                                                              |         |
-| `method`            | varchar                      | 255        | HTTP method (GET, POST, PUT, DELETE, etc.)                                     |         |
-| `create_time`       | timestamp with time zone     |            | When the API was created                                                       |         |
-| `creator_id`        | varchar                      | 255        | ID of the user who created the API                                             |         |
-| `qa_project_id`     | varchar                      | 255        | ID of the QA project this API belongs to                                       |         |
-
-#### qa_projects
-
-This table stores information about quality assurance projects.
-
-| **field**      | **type**                     | **length** | **description**                      | **key** |
-|:---------------|:-----------------------------|:-----------|:-------------------------------------|:--------|
-| `id`           | varchar                      | 500        | Unique identifier for the project    | PK      |
-| `name`         | varchar                      | 255        | Name of the QA project               |         |
-
-#### qa_test_cases
-
-This table stores information about test cases in quality assurance.
-
-| **field**       | **type**                     | **length** | **description**                      | **key** |
-|:----------------|:-----------------------------|:-----------|:-------------------------------------|:--------|
-| `id`            | varchar                      | 500        | Unique identifier for the test case  | PK      |
-| `name`          | varchar                      | 255        | Name of the test case                |         |
-| `create_time`   | timestamp with time zone     |            | When the test case was created       |         |
-| `creator_id`    | varchar                      | 255        | ID of the user who created the case  |         |
-| `type`          | varchar                      | 255        | Type of test case (api or functional)|         |
-| `qa_api_id`     | varchar                      | 255        | ID of the related API (required when type is api) |         |
-| `qa_project_id` | varchar                      | 255        | ID of the QA project                 |         |
-
-#### qa_test_case_executions
-
-This table stores information about test case executions in quality assurance.
-
-| **field**          | **type**                     | **length** | **description**                          | **key** |
-|:-------------------|:-----------------------------|:-----------|:-----------------------------------------|:--------|
-| `id`               | varchar                      | 500        | Unique identifier for the execution      | PK      |
-| `qa_project_id`    | varchar                      | 255        | ID of the QA project                     |         |
-| `qa_test_case_id`  | varchar                      | 255        | ID of the test case being executed       |         |
-| `create_time`      | timestamp with time zone     |            | When the execution record was created    |         |
-| `start_time`       | timestamp with time zone     |            | When the test execution started          |         |
-| `finish_time`      | timestamp with time zone     |            | When the test execution finished         |         |
-| `creator_id`       | varchar                      | 255        | ID of the user who executed the test     |         |
-| `status`           | varchar                      | 255        | Execution status (PENDING, IN_PROGRESS, SUCCESS, FAILED)  |         |
 
 
 ## Get Domain Layer Models in Developer Mode

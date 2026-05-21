@@ -12,7 +12,6 @@
   "server": {
     "objectType": "Server_MYSQL",
     "name": "Default",
-    "uuid": "",
     "serverVersion": 80099,
     "edition": "Default",
     "lowerCaseTableNames": 0,
@@ -144,7 +143,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -296,7 +294,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -448,7 +445,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -1259,7 +1255,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -1420,7 +1415,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -1581,7 +1575,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -1742,7 +1735,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -1886,7 +1878,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -2082,7 +2073,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -2261,7 +2251,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -2405,7 +2394,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -2549,7 +2537,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -2806,7 +2793,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3028,7 +3014,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3241,7 +3226,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3531,7 +3515,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3682,7 +3665,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3826,7 +3808,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -3970,7 +3951,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -4191,7 +4171,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -4344,7 +4323,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -4479,7 +4457,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -4588,7 +4565,6 @@
             ],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -4845,7 +4821,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -5126,7 +5101,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -5425,7 +5399,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -5481,7 +5454,6 @@
             "fields": [],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -5665,7 +5637,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -5842,7 +5813,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -6044,7 +6014,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -6227,7 +6196,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -7018,7 +6986,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -7679,7 +7646,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -7976,7 +7942,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -8205,7 +8170,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -8410,7 +8374,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -8639,7 +8602,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -8806,7 +8768,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -9167,7 +9128,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -9535,7 +9495,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -9799,7 +9758,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -10025,7 +9983,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -10244,7 +10201,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -10690,7 +10646,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -10911,7 +10866,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -11038,7 +10992,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -11380,7 +11333,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -11609,7 +11561,6 @@
               "comment": ""
             },
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -11831,7 +11782,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -11887,7 +11837,6 @@
             "fields": [],
             "indexes": [],
             "foreignKeys": [],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -12148,7 +12097,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -12301,7 +12249,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -13061,7 +13008,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -13256,7 +13202,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -13409,7 +13354,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -14389,7 +14333,1481 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
+            "triggers": [],
+            "tablePartitions": []
+          },
+          {
+            "objectType": "Table_MYSQL",
+            "name": "qa_projects",
+            "comment": "",
+            "engine": "",
+            "characterSet": "",
+            "collation": "",
+            "autoIncrement": 0,
+            "tablespace": "",
+            "storage": "",
+            "insertMethod": "",
+            "connection": "",
+            "checksum": false,
+            "rowFormat": "",
+            "avgRowLength": 0,
+            "maxRows": 0,
+            "minRows": 0,
+            "keyBlockSize": 0,
+            "packKeys": "",
+            "delayKeyWrite": false,
+            "dataDirectory": "",
+            "indexDirectory": "",
+            "statsAutoRecalc": "",
+            "statsPersistent": "",
+            "statsSamplePages": 0,
+            "union": "",
+            "pageCheckSum": false,
+            "transactional": false,
+            "compression": "",
+            "oldName": "",
+            "encryption": false,
+            "createOptions": "",
+            "createTime": "",
+            "checkTime": "",
+            "dataFree": 0,
+            "dataLength": 0,
+            "indexLength": 0,
+            "maxDataLength": 0,
+            "rows": 0,
+            "updateTime": "",
+            "DDL": "",
+            "partitionBy": "",
+            "partitionByExpr": "",
+            "partitions": 0,
+            "partitionKeyAlgorithm": "",
+            "subPartitionBy": "",
+            "subPartitionByExpr": "",
+            "subPartitions": 0,
+            "subPartitionKeyAlgorithm": "",
+            "fields": [
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "id",
+                "type": "varchar",
+                "length": 500,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "name",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "name"
+              }
+            ],
+            "indexes": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_MYSQL",
+              "name": "",
+              "fields": [
+                {
+                  "objectType": "IndexField_MYSQL",
+                  "name": "id",
+                  "keyLength": 0,
+                  "order": "",
+                  "oldName": ""
+                }
+              ],
+              "oldName": "",
+              "indexMethod": "",
+              "comment": ""
+            },
+            "foreignKeys": [],
+            "triggers": [],
+            "tablePartitions": []
+          },
+          {
+            "objectType": "Table_MYSQL",
+            "name": "qa_test_cases",
+            "comment": "",
+            "engine": "",
+            "characterSet": "",
+            "collation": "",
+            "autoIncrement": 0,
+            "tablespace": "",
+            "storage": "",
+            "insertMethod": "",
+            "connection": "",
+            "checksum": false,
+            "rowFormat": "",
+            "avgRowLength": 0,
+            "maxRows": 0,
+            "minRows": 0,
+            "keyBlockSize": 0,
+            "packKeys": "",
+            "delayKeyWrite": false,
+            "dataDirectory": "",
+            "indexDirectory": "",
+            "statsAutoRecalc": "",
+            "statsPersistent": "",
+            "statsSamplePages": 0,
+            "union": "",
+            "pageCheckSum": false,
+            "transactional": false,
+            "compression": "",
+            "oldName": "",
+            "encryption": false,
+            "createOptions": "",
+            "createTime": "",
+            "checkTime": "",
+            "dataFree": 0,
+            "dataLength": 0,
+            "indexLength": 0,
+            "maxDataLength": 0,
+            "rows": 0,
+            "updateTime": "",
+            "DDL": "",
+            "partitionBy": "",
+            "partitionByExpr": "",
+            "partitions": 0,
+            "partitionKeyAlgorithm": "",
+            "subPartitionBy": "",
+            "subPartitionByExpr": "",
+            "subPartitions": 0,
+            "subPartitionKeyAlgorithm": "",
+            "fields": [
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "id",
+                "type": "varchar",
+                "length": 500,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "name",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "name"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "create_time",
+                "type": "datetime",
+                "length": 3,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "create_time"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "creator_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "creator_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "type",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "type"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "qa_api_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "qa_api_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "qa_project_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "qa_project_id"
+              }
+            ],
+            "indexes": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_MYSQL",
+              "name": "",
+              "fields": [
+                {
+                  "objectType": "IndexField_MYSQL",
+                  "name": "id",
+                  "keyLength": 0,
+                  "order": "",
+                  "oldName": ""
+                }
+              ],
+              "oldName": "",
+              "indexMethod": "",
+              "comment": ""
+            },
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "fk_qa_test_cases_qa_projects_1",
+                "fields": [
+                  "qa_project_id"
+                ],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_projects",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "fk_qa_test_cases_qa_apis_1",
+                "fields": [
+                  "qa_api_id"
+                ],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_apis",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              }
+            ],
+            "triggers": [],
+            "tablePartitions": []
+          },
+          {
+            "objectType": "Table_MYSQL",
+            "name": "qa_test_case_executions",
+            "comment": "",
+            "engine": "",
+            "characterSet": "",
+            "collation": "",
+            "autoIncrement": 0,
+            "tablespace": "",
+            "storage": "",
+            "insertMethod": "",
+            "connection": "",
+            "checksum": false,
+            "rowFormat": "",
+            "avgRowLength": 0,
+            "maxRows": 0,
+            "minRows": 0,
+            "keyBlockSize": 0,
+            "packKeys": "",
+            "delayKeyWrite": false,
+            "dataDirectory": "",
+            "indexDirectory": "",
+            "statsAutoRecalc": "",
+            "statsPersistent": "",
+            "statsSamplePages": 0,
+            "union": "",
+            "pageCheckSum": false,
+            "transactional": false,
+            "compression": "",
+            "oldName": "",
+            "encryption": false,
+            "createOptions": "",
+            "createTime": "",
+            "checkTime": "",
+            "dataFree": 0,
+            "dataLength": 0,
+            "indexLength": 0,
+            "maxDataLength": 0,
+            "rows": 0,
+            "updateTime": "",
+            "DDL": "",
+            "partitionBy": "",
+            "partitionByExpr": "",
+            "partitions": 0,
+            "partitionKeyAlgorithm": "",
+            "subPartitionBy": "",
+            "subPartitionByExpr": "",
+            "subPartitions": 0,
+            "subPartitionKeyAlgorithm": "",
+            "fields": [
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "project_key",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "project_key"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "file_name",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "file_name"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "file_path",
+                "type": "longtext",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "file_path"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "file_language",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "file_language"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "code_smells",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "code_smells"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "sqale_index",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "sqale_index"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "sqale_rating",
+                "type": "double",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "sqale_rating"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "bugs",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "bugs"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "reliability_rating",
+                "type": "varchar",
+                "length": 20,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "reliability_rating"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "vulnerabilities",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "vulnerabilities"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "security_rating",
+                "type": "varchar",
+                "length": 20,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "security_rating"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "security_hotspots",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "security_hotspots"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "security_hotspots_reviewed",
+                "type": "double",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "security_hotspots_reviewed"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "security_review_rating",
+                "type": "varchar",
+                "length": 20,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "security_review_rating"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "ncloc",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "ncloc"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "coverage",
+                "type": "double",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "coverage"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "uncovered_lines",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "uncovered_lines"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "lines_to_cover",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "lines_to_cover"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "duplicated_lines_density",
+                "type": "double",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "duplicated_lines_density"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "duplicated_blocks",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "duplicated_blocks"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "duplicated_files",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "duplicated_files"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "duplicated_lines",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "duplicated_lines"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "effort_to_reach_maintainability_rating_a",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "effort_to_reach_maintainability_rating_a"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "complexity",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "complexity"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "cognitive_complexity",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "cognitive_complexity"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "num_of_lines",
+                "type": "bigint",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "num_of_lines"
+              }
+            ],
+            "indexes": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_MYSQL",
+              "name": "",
+              "fields": [
+                {
+                  "objectType": "IndexField_MYSQL",
+                  "name": "id",
+                  "keyLength": 0,
+                  "order": "",
+                  "oldName": ""
+                }
+              ],
+              "oldName": "",
+              "indexMethod": "",
+              "comment": ""
+            },
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "_copy_4",
+                "fields": [],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_projects",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              }
+            ],
+            "triggers": [],
+            "tablePartitions": []
+          },
+          {
+            "objectType": "Table_MYSQL",
+            "name": "qa_apis",
+            "comment": "",
+            "engine": "",
+            "characterSet": "",
+            "collation": "",
+            "autoIncrement": 0,
+            "tablespace": "",
+            "storage": "",
+            "insertMethod": "",
+            "connection": "",
+            "checksum": false,
+            "rowFormat": "",
+            "avgRowLength": 0,
+            "maxRows": 0,
+            "minRows": 0,
+            "keyBlockSize": 0,
+            "packKeys": "",
+            "delayKeyWrite": false,
+            "dataDirectory": "",
+            "indexDirectory": "",
+            "statsAutoRecalc": "",
+            "statsPersistent": "",
+            "statsSamplePages": 0,
+            "union": "",
+            "pageCheckSum": false,
+            "transactional": false,
+            "compression": "",
+            "oldName": "",
+            "encryption": false,
+            "createOptions": "",
+            "createTime": "",
+            "checkTime": "",
+            "dataFree": 0,
+            "dataLength": 0,
+            "indexLength": 0,
+            "maxDataLength": 0,
+            "rows": 0,
+            "updateTime": "",
+            "DDL": "",
+            "partitionBy": "",
+            "partitionByExpr": "",
+            "partitions": 0,
+            "partitionKeyAlgorithm": "",
+            "subPartitionBy": "",
+            "subPartitionByExpr": "",
+            "subPartitions": 0,
+            "subPartitionKeyAlgorithm": "",
+            "fields": [
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "id",
+                "type": "varchar",
+                "length": 500,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "name",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "name"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "path",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "path"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "method",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "method"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "create_time",
+                "type": "datetime",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "create_time"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "creator_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "creator_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "qa_project_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "qa_project_id"
+              }
+            ],
+            "indexes": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_MYSQL",
+              "name": "",
+              "fields": [
+                {
+                  "objectType": "IndexField_MYSQL",
+                  "name": "id",
+                  "keyLength": 0,
+                  "order": "",
+                  "oldName": ""
+                }
+              ],
+              "oldName": "",
+              "indexMethod": "",
+              "comment": ""
+            },
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "fk_qa_apis_qa_projects_1",
+                "fields": [
+                  "qa_project_id"
+                ],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_projects",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              }
+            ],
             "triggers": [],
             "tablePartitions": []
           }
@@ -14519,7 +15937,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -14590,7 +16007,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -14947,7 +16363,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -14973,7 +16388,6 @@
                 "collation": "A",
                 "cardinality": "7170",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -15037,7 +16451,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -15368,7 +16781,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -15394,7 +16806,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -15441,7 +16852,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -15772,7 +17182,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -15819,7 +17228,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -16020,7 +17428,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -16046,7 +17453,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -16100,7 +17506,6 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
             "triggers": [],
             "tablePartitions": []
           },
@@ -16587,7 +17992,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -16613,7 +18017,6 @@
                 "collation": "A",
                 "cardinality": "1",
                 "packed": "",
-                "IsVisibleIndex": false,
                 "fields": [
                   {
                     "objectType": "IndexField_MYSQL",
@@ -16677,7 +18080,328 @@
                 "oldName": ""
               }
             ],
-            "checks": [],
+            "triggers": [],
+            "tablePartitions": []
+          }
+        ],
+        "views": []
+      },
+      {
+        "objectType": "Schema_MYSQL",
+        "name": "1",
+        "tables": [
+          {
+            "objectType": "Table_MYSQL",
+            "name": "qa_test_case_executions",
+            "comment": "",
+            "engine": "",
+            "characterSet": "",
+            "collation": "",
+            "autoIncrement": 0,
+            "tablespace": "",
+            "storage": "",
+            "insertMethod": "",
+            "connection": "",
+            "checksum": false,
+            "rowFormat": "",
+            "avgRowLength": 0,
+            "maxRows": 0,
+            "minRows": 0,
+            "keyBlockSize": 0,
+            "packKeys": "",
+            "delayKeyWrite": false,
+            "dataDirectory": "",
+            "indexDirectory": "",
+            "statsAutoRecalc": "",
+            "statsPersistent": "",
+            "statsSamplePages": 0,
+            "union": "",
+            "pageCheckSum": false,
+            "transactional": false,
+            "compression": "",
+            "oldName": "",
+            "encryption": false,
+            "createOptions": "",
+            "createTime": "",
+            "checkTime": "",
+            "dataFree": 0,
+            "dataLength": 0,
+            "indexLength": 0,
+            "maxDataLength": 0,
+            "rows": 0,
+            "updateTime": "",
+            "DDL": "",
+            "partitionBy": "",
+            "partitionByExpr": "",
+            "partitions": 0,
+            "partitionKeyAlgorithm": "",
+            "subPartitionBy": "",
+            "subPartitionByExpr": "",
+            "subPartitions": 0,
+            "subPartitionKeyAlgorithm": "",
+            "fields": [
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "id",
+                "type": "varchar",
+                "length": 500,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "qa_project_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "qa_project_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "qa_test_case_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "qa_test_case_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "create_time",
+                "type": "datetime",
+                "length": 3,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "create_time"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "start_time",
+                "type": "datetime",
+                "length": 0,
+                "decimals": 0,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "start_time"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "finish_time",
+                "type": "datetime",
+                "length": 0,
+                "decimals": 0,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "finish_time"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "creator_id",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "creator_id"
+              },
+              {
+                "objectType": "TableField_MYSQL",
+                "name": "status",
+                "type": "varchar",
+                "length": 255,
+                "decimals": -2147483648,
+                "isUnsigned": false,
+                "isZeroFill": false,
+                "setEnumValues": "",
+                "isBinary": false,
+                "charset": "",
+                "collation": "",
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "isOnUpdateCurrentTimestamp": false,
+                "isAutoInc": false,
+                "comment": "",
+                "columnFormat": "",
+                "storage": "",
+                "isVirtual": false,
+                "isGeneratedAlways": false,
+                "virtualExpr": "",
+                "virtualType": "",
+                "oldName": "status"
+              }
+            ],
+            "indexes": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_MYSQL",
+              "name": "",
+              "fields": [
+                {
+                  "objectType": "IndexField_MYSQL",
+                  "name": "id",
+                  "keyLength": 0,
+                  "order": "",
+                  "oldName": ""
+                }
+              ],
+              "oldName": "",
+              "indexMethod": "",
+              "comment": ""
+            },
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "fk_qa_test_case_executions_qa_test_cases_1",
+                "fields": [
+                  "qa_test_case_id"
+                ],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_test_cases",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_MYSQL",
+                "name": "fk_qa_test_case_executions_qa_projects_1",
+                "fields": [
+                  "qa_project_id"
+                ],
+                "referenceSchema": "Default",
+                "referenceTable": "qa_projects",
+                "referenceFields": [
+                  "id"
+                ],
+                "onDelete": "",
+                "onUpdate": "",
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "oldName": ""
+              }
+            ],
             "triggers": [],
             "tablePartitions": []
           }
@@ -16942,7 +18666,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 600,
             "y": 72,
@@ -17001,7 +18724,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 900,
             "y": 72,
@@ -17060,7 +18782,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 1503,
             "y": 73,
@@ -17108,9 +18829,9 @@
           "opacity": 1.0,
           "isBold": false,
           "color": {
-            "r": 80,
-            "g": 242,
-            "b": 140,
+            "r": 252,
+            "g": 127,
+            "b": 8,
             "a": 1
           },
           "borderColor": {
@@ -17119,7 +18840,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 2109,
             "y": 71,
@@ -17141,11 +18861,11 @@
         {
           "type": "label",
           "name": "Label 3 Copy 1 Copy 1 Copy 1",
-          "x": 2169,
-          "y": 24,
-          "width": 132,
+          "x": 2153,
+          "y": 25,
+          "width": 171,
           "height": 39,
-          "text": "Cross-domain",
+          "text": "Quality Assurance",
           "fontName": "Arial Unicode MS",
           "fontSize": 20,
           "fontColor": {
@@ -17290,7 +19010,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 1199,
             "y": 71,
@@ -17463,7 +19182,7 @@
           "type": "table",
           "schemaName": "lake",
           "tableName": "cicd_pipeline_commits",
-          "x": 2849,
+          "x": 2809,
           "y": 903,
           "width": 240,
           "height": 154,
@@ -17479,7 +19198,7 @@
           "type": "table",
           "schemaName": "lake",
           "tableName": "cicd_pipelines",
-          "x": 2849,
+          "x": 2809,
           "y": 1095,
           "width": 240,
           "height": 254,
@@ -17495,7 +19214,7 @@
           "type": "table",
           "schemaName": "lake",
           "tableName": "cicd_tasks",
-          "x": 2848,
+          "x": 2808,
           "y": 1384,
           "width": 242,
           "height": 282,
@@ -17592,7 +19311,6 @@
             "b": 254,
             "a": 1
           },
-          "shapeStyle": "version1",
           "label": {
             "x": 1806,
             "y": 73,
@@ -17634,8 +19352,8 @@
           "type": "table",
           "schemaName": "Default",
           "tableName": "cq_projects",
-          "x": 2523,
-          "y": 163,
+          "x": 2497,
+          "y": 154,
           "width": 200,
           "height": 200,
           "isBold": false,
@@ -17650,8 +19368,8 @@
           "type": "table",
           "schemaName": "Default",
           "tableName": "cq_issues",
-          "x": 2523,
-          "y": 387,
+          "x": 2497,
+          "y": 378,
           "width": 200,
           "height": 514,
           "isBold": false,
@@ -17666,8 +19384,8 @@
           "type": "table",
           "schemaName": "Default",
           "tableName": "cq_issue_code_blocks",
-          "x": 2246,
-          "y": 392,
+          "x": 2220,
+          "y": 383,
           "width": 200,
           "height": 231,
           "isBold": false,
@@ -17682,8 +19400,8 @@
           "type": "table",
           "schemaName": "Default",
           "tableName": "cq_file_metrics",
-          "x": 2764,
-          "y": 139,
+          "x": 2738,
+          "y": 130,
           "width": 200,
           "height": 625,
           "isBold": false,
@@ -17730,7 +19448,7 @@
           "type": "table",
           "schemaName": "Default",
           "tableName": "cicd_scopes",
-          "x": 2553,
+          "x": 2513,
           "y": 1173,
           "width": 240,
           "height": 177,
@@ -17746,7 +19464,7 @@
           "type": "table",
           "schemaName": "lake",
           "tableName": "cicd_deployment_commits",
-          "x": 2239,
+          "x": 2199,
           "y": 1245,
           "width": 240,
           "height": 382,
@@ -17810,7 +19528,7 @@
           "type": "table",
           "schemaName": "lake",
           "tableName": "cicd_deployments",
-          "x": 2238,
+          "x": 2198,
           "y": 955,
           "width": 240,
           "height": 257,
@@ -17835,6 +19553,128 @@
             "r": 253,
             "g": 181,
             "b": 12,
+            "a": 1
+          }
+        },
+        {
+          "type": "rectangle",
+          "name": "Cross-domain Copy 1",
+          "x": 2401,
+          "y": 16,
+          "width": 274,
+          "height": 56,
+          "opacity": 1.0,
+          "isBold": false,
+          "color": {
+            "r": 80,
+            "g": 242,
+            "b": 140,
+            "a": 1
+          },
+          "borderColor": {
+            "r": 254,
+            "g": 254,
+            "b": 254,
+            "a": 1
+          },
+          "label": {
+            "x": 2409,
+            "y": 71,
+            "width": 144,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "type": "label",
+          "name": "Label 3 Copy 1 Copy 1 Copy 1 Copy 3",
+          "x": 2469,
+          "y": 24,
+          "width": 132,
+          "height": 39,
+          "text": "Cross-domain",
+          "fontName": "Arial Unicode MS",
+          "fontSize": 20,
+          "fontColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "isFontBold": false,
+          "isFontItalic": false
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "qa_projects",
+          "x": 3030,
+          "y": 384,
+          "width": 200,
+          "height": 95,
+          "isBold": false,
+          "titleColor": {
+            "r": 252,
+            "g": 127,
+            "b": 8,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "qa_test_cases",
+          "x": 3275,
+          "y": 375,
+          "width": 200,
+          "height": 196,
+          "isBold": false,
+          "titleColor": {
+            "r": 252,
+            "g": 127,
+            "b": 8,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "Default",
+          "tableName": "qa_apis",
+          "x": 3275,
+          "y": 603,
+          "width": 200,
+          "height": 194,
+          "isBold": false,
+          "titleColor": {
+            "r": 252,
+            "g": 127,
+            "b": 8,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "1",
+          "tableName": "qa_test_case_executions",
+          "x": 3275,
+          "y": 122,
+          "width": 200,
+          "height": 219,
+          "isBold": false,
+          "titleColor": {
+            "r": 252,
+            "g": 127,
+            "b": 8,
             "a": 1
           }
         }
@@ -19429,16 +21269,16 @@
           "visible": true,
           "vertices": [
             {
-              "x": 3104,
+              "x": 3064,
               "y": 949
             },
             {
-              "x": 3104,
+              "x": 3064,
               "y": 1137
             }
           ],
           "label": {
-            "x": 3001,
+            "x": 2961,
             "y": 910,
             "width": 93,
             "height": 31,
@@ -19463,16 +21303,16 @@
           "visible": true,
           "vertices": [
             {
-              "x": 3105,
+              "x": 3065,
               "y": 1471
             },
             {
-              "x": 3104,
+              "x": 3064,
               "y": 1144
             }
           ],
           "label": {
-            "x": 3101,
+            "x": 3061,
             "y": 1442,
             "width": 108,
             "height": 31,
@@ -19581,17 +21421,17 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2749,
-              "y": 207
+              "x": 2723,
+              "y": 198
             },
             {
-              "x": 2738,
-              "y": 207
+              "x": 2712,
+              "y": 198
             }
           ],
           "label": {
-            "x": 2709,
-            "y": 168,
+            "x": 2683,
+            "y": 159,
             "width": 50,
             "height": 31,
             "fontName": "Arial Unicode MS",
@@ -19615,17 +21455,17 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2738,
-              "y": 519
+              "x": 2712,
+              "y": 510
             },
             {
-              "x": 2738,
-              "y": 214
+              "x": 2712,
+              "y": 205
             }
           ],
           "label": {
-            "x": 2678,
-            "y": 480,
+            "x": 2652,
+            "y": 471,
             "width": 50,
             "height": 31,
             "fontName": "Arial Unicode MS",
@@ -19649,17 +21489,17 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2461,
-              "y": 464
+              "x": 2435,
+              "y": 455
             },
             {
-              "x": 2508,
-              "y": 437
+              "x": 2482,
+              "y": 428
             }
           ],
           "label": {
-            "x": 2451,
-            "y": 425,
+            "x": 2425,
+            "y": 416,
             "width": 50,
             "height": 31,
             "fontName": "Arial Unicode MS",
@@ -19763,20 +21603,20 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2834,
+              "x": 2794,
               "y": 1333
             },
             {
-              "x": 2833,
+              "x": 2793,
               "y": 1218
             },
             {
-              "x": 2808,
+              "x": 2768,
               "y": 1218
             }
           ],
           "label": {
-            "x": 2632,
+            "x": 2592,
             "y": 1294,
             "width": 212,
             "height": 31,
@@ -19801,20 +21641,20 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2833,
+              "x": 2793,
               "y": 1639
             },
             {
-              "x": 2808,
+              "x": 2768,
               "y": 1639
             },
             {
-              "x": 2808,
+              "x": 2768,
               "y": 1225
             }
           ],
           "label": {
-            "x": 2654,
+            "x": 2614,
             "y": 1600,
             "width": 189,
             "height": 31,
@@ -19873,20 +21713,20 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2494,
+              "x": 2454,
               "y": 1311
             },
             {
-              "x": 2494,
+              "x": 2454,
               "y": 1219
             },
             {
-              "x": 2538,
+              "x": 2498,
               "y": 1219
             }
           ],
           "label": {
-            "x": 2490,
+            "x": 2450,
             "y": 1282,
             "width": 288,
             "height": 31,
@@ -20017,20 +21857,20 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2493,
+              "x": 2453,
               "y": 1023
             },
             {
-              "x": 2493,
+              "x": 2453,
               "y": 1213
             },
             {
-              "x": 2538,
+              "x": 2498,
               "y": 1213
             }
           ],
           "label": {
-            "x": 2144,
+            "x": 2104,
             "y": 984,
             "width": 339,
             "height": 31,
@@ -20055,16 +21895,16 @@
           "visible": true,
           "vertices": [
             {
-              "x": 2224,
+              "x": 2184,
               "y": 1331
             },
             {
-              "x": 2223,
+              "x": 2183,
               "y": 1001
             }
           ],
           "label": {
-            "x": 2240,
+            "x": 2200,
             "y": 1302,
             "width": 323,
             "height": 31,
@@ -20105,6 +21945,192 @@
             "x": 352,
             "y": 1049,
             "width": 227,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_qa_test_case_executions_qa_test_cases_1",
+          "sourceTableName": "qa_test_case_executions",
+          "sourceSchemaName": "1",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 3490,
+              "y": 208
+            },
+            {
+              "x": 3490,
+              "y": 421
+            }
+          ],
+          "label": {
+            "x": 3245,
+            "y": 179,
+            "width": 293,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_qa_test_case_executions_qa_projects_1",
+          "sourceTableName": "qa_test_case_executions",
+          "sourceSchemaName": "1",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 3260,
+              "y": 189
+            },
+            {
+              "x": 3260,
+              "y": 424
+            },
+            {
+              "x": 3245,
+              "y": 424
+            }
+          ],
+          "label": {
+            "x": 2995,
+            "y": 150,
+            "width": 275,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_qa_test_cases_qa_projects_1",
+          "sourceTableName": "qa_test_cases",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 3260,
+              "y": 546
+            },
+            {
+              "x": 3260,
+              "y": 431
+            },
+            {
+              "x": 3245,
+              "y": 431
+            }
+          ],
+          "label": {
+            "x": 3062,
+            "y": 507,
+            "width": 208,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_qa_apis_qa_projects_1",
+          "sourceTableName": "qa_apis",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 3260,
+              "y": 774
+            },
+            {
+              "x": 3245,
+              "y": 774
+            },
+            {
+              "x": 3245,
+              "y": 440
+            },
+            {
+              "x": 3245,
+              "y": 440
+            }
+          ],
+          "label": {
+            "x": 3102,
+            "y": 735,
+            "width": 168,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_qa_test_cases_qa_apis_1",
+          "sourceTableName": "qa_test_cases",
+          "sourceSchemaName": "Default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 3490,
+              "y": 526
+            },
+            {
+              "x": 3490,
+              "y": 648
+            }
+          ],
+          "label": {
+            "x": 3355,
+            "y": 497,
+            "width": 185,
             "height": 31,
             "fontName": "Arial Unicode MS",
             "fontSize": 14,
