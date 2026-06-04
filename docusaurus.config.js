@@ -30,7 +30,7 @@ const versions = require('./versions.json');
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // set to undefined to remove Edit this Page
-          editUrl: 'https://github.com/apache/incubator-devlake-website/edit/main',
+          editUrl: 'https://github.com/apache/devlake-website/edit/main',
           remarkPlugins: [math, [require('mdx-mermaid'), {
             theme: { light: 'neutral', dark: 'forest' }
           }]],
@@ -64,7 +64,7 @@ const versions = require('./versions.json');
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           // Please change this to your repo.
-          editUrl: 'https://github.com/apache/incubator-devlake-website/edit/main',
+          editUrl: 'https://github.com/apache/devlake-website/edit/main',
           remarkPlugins: [math, [require('mdx-mermaid'), {
             theme: { light: 'neutral', dark: 'forest' }
           }]],
@@ -201,7 +201,7 @@ const versions = require('./versions.json');
             position: 'right'
           },
           {
-            to: 'https://github.com/apache/incubator-devlake',
+            to: 'https://github.com/apache/devlake',
             label: 'GitHub',
             position: 'right',
           }, 
@@ -284,7 +284,7 @@ const versions = require('./versions.json');
               },
               {
                 label: 'GitHub Issue Tracker For Docs',
-                to: 'https://github.com/apache/incubator-devlake-website/issues',
+                to: 'https://github.com/apache/devlake-website/issues',
               },
             ],
           },
@@ -293,7 +293,7 @@ const versions = require('./versions.json');
             items: [
               {
                 label: 'GitHub',
-                to: 'https://github.com/apache/incubator-devlake',
+                to: 'https://github.com/apache/devlake',
               },
               {
                 label: 'Twitter',

@@ -12,7 +12,7 @@ description: >
 Feel free to give a read, which has been specially handpicked for you! This would undoubtedly enlighten on practicality and provide deeper insights into Engineering.
 
 
-<img src="https://github.com/apache/incubator-devlake-website/assets/31725457/2c47f1fc-7bfd-4fb3-b978-0b4e02ce4bc2" alt="Diving Into the Lake with Tatiana Gil Lopez" width="100%" />
+<img src="https://github.com/apache/devlake-website/assets/31725457/2c47f1fc-7bfd-4fb3-b978-0b4e02ce4bc2" alt="Diving Into the Lake with Tatiana Gil Lopez" width="100%" />
 
 
 ### Question #1: "In your opinion, what is the value of taking a data driven approach to engineering?"

@@ -79,8 +79,8 @@ Both are independent of each other. Assume that ASF wants to check the health of
 and maintenance of these projects with DORA.
 
 DevLake manages 3 `repos`: [incubator-devlake](https://github.com/apache/incubator-devlake), 
-[incubator-devlake-website](https://github.com/apache/incubator-devlake-website), 
-and [incubator-devlake-helm-chart](https://github.com/apache/incubator-devlake-helm-chart).
+[devlake-website](https://github.com/apache/devlake-website), 
+and [devlake-helm-chart](https://github.com/apache/devlake-helm-chart).
 There are many repos related to _Spark_ in one way or another. To keep it simple, 
 we will also pick 3 `repos`: [spark](https://github.com/apache/spark),
 [spark-website](https://github.com/apache/spark-website), and [incubator-livy](https://github.com/apache/incubator-livy).

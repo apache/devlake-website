@@ -12,9 +12,9 @@ sidebar_position: 3
 
 ## Quick Start
 
-#### You can also check https://github.com/apache/incubator-devlake-helm-chart to make contribution
+#### You can also check https://github.com/apache/devlake-helm-chart to make contribution
 
-#### To install or upgrade to the latest version, please check [here](https://github.com/apache/incubator-devlake-helm-chart/releases)
+#### To install or upgrade to the latest version, please check [here](https://github.com/apache/devlake-helm-chart/releases)
 
 ### Install
 
@@ -43,7 +43,7 @@ To install the chart with release name `devlake`,follow these steps:
 5.  Install the chart by running the following commands:
 
     ```shell
-    helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+    helm repo add devlake https://apache.github.io/devlake-helm-chart
     helm repo update
     helm install devlake devlake/devlake --version=1.0-beta1 --set lake.encryptionSecret.secret=$ENCRYPTION_SECRET
     ```
@@ -250,7 +250,7 @@ b. Provide below values while install from helm:
 Here is the example:
 
 ```
-helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+helm repo add devlake https://apache.github.io/devlake-helm-chart
 helm repo update
 ENCRYPTION_SECRET=$(openssl rand -base64 2000 | tr -dc 'A-Z' | fold -w 128 | head -n 1)
 helm install devlake devlake/devlake \
@@ -286,7 +286,7 @@ Yes, the devlake helm chart supports using an external Grafana. You can set the 
 Here is the example:
 
 ```
-helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+helm repo add devlake https://apache.github.io/devlake-helm-chart
 helm repo update
 ENCRYPTION_SECRET=$(openssl rand -base64 2000 | tr -dc 'A-Z' | fold -w 128 | head -n 1)
 helm install devlake devlake/devlake \
@@ -304,7 +304,7 @@ helm install devlake devlake/devlake \
 Here is the example:
 
 ```
-helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+helm repo add devlake https://apache.github.io/devlake-helm-chart
 helm repo update
 ENCRYPTION_SECRET=$(openssl rand -base64 2000 | tr -dc 'A-Z' | fold -w 128 | head -n 1)
 helm install devlake devlake/devlake \
@@ -320,7 +320,7 @@ helm install devlake devlake/devlake \
 Here is the example:
 
 ```
-helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+helm repo add devlake https://apache.github.io/devlake-helm-chart
 helm repo update
 ENCRYPTION_SECRET=$(openssl rand -base64 2000 | tr -dc 'A-Z' | fold -w 128 | head -n 1)
 helm install devlake devlake/devlake \

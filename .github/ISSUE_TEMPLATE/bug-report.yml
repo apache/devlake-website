@@ -24,11 +24,11 @@ body:
     attributes:
       label: Search before asking
       description: >
-        Please make sure to search in the [issues](https://github.com/apache/incubator-devlake-website/issues?q=is%3Aissue)
+        Please make sure to search in the [issues](https://github.com/apache/devlake-website/issues?q=is%3Aissue)
         to check if this bug already exists.
       options:
         - label: >
-            I had searched in the [issues](https://github.com/apache/incubator-devlake-website/issues?q=is%3Aissue) and found
+            I had searched in the [issues](https://github.com/apache/devlake-website/issues?q=is%3Aissue) and found
             no similar issues.
           required: true
 
