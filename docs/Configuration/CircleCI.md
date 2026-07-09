@@ -23,11 +23,10 @@ For CircleCI, you do not need to enter the REST API endpoint URL, which is alway
 
 #### Token
 
-Learn about [Managing API Tokens](https://circleci.com/docs/managing-api-tokens/).
+Create a [CircleCI Personal API Token](https://circleci.com/docs/managing-api-tokens/#create-a-personal-api-token) for DevLake.
 
-Tokens you have generated that can be used to access the CircleCI API. Apps using these tokens can act as you and have full read- and write-permissions!
-There are two types of API token(Personal and Project) you can create within CircleCI.
-
+Use a token from a CircleCI user who can access the organization and projects you want to collect.
+For SSO-enabled organizations, see CircleCI's [Personal API tokens with SSO](https://circleci.com/docs/guides/permissions-authentication/sso-overview/#personal-api-tokens-with-sso).
 
 #### Proxy URL (Optional)
 
@@ -51,6 +50,8 @@ Click `Test Connection`, if the connection is successful, click `Save Connection
 #### Projects
 
 Select the CircleCI projects to collect.
+
+DevLake can only detect projects that you follow in CircleCI.
 
 ### Step 1.3 - Adding Scope Config (Optional)
 Scope config includes two sets of configurations:
