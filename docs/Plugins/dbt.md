@@ -4,6 +4,10 @@ description: >
   DBT Plugin
 ---
 
+:::caution Deprecated
+The DBT plugin is deprecated and will be removed at the end of August 2026 (August 31, 2026). It is no longer recommended for new pipelines. Please migrate to alternative transformation approaches before this date. Existing pipelines will continue to work until the plugin is removed.
+:::
+
 
 ## Summary
 
