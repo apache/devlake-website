@@ -7,7 +7,7 @@ title: "Mailing List"
 
 ## Subscribe to Mailing List
 
-We highly recommend that you subscribe to the development mailing list of Apache Devlake (Incubating) to keep up and participate in the latest community discussions.
+We highly recommend that you subscribe to the development mailing list of Apache Devlake to keep up and participate in the latest community discussions.
 
 **Please note: you will need to subscribe to the mailing list first before participating in any discussions.**
 

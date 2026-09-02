@@ -5,13 +5,13 @@ sidebar_position: 5
 
 Version 1.0 dated July 7, 2022
 
-This trademark policy was prepared to help you understand how to use the Apache DevLake(incubating) trademarks, service marks and logos with Apache DevLake(incubating) software.
+This trademark policy was prepared to help you understand how to use the Apache DevLake trademarks, service marks and logos with Apache DevLake software.
 
 While some of our software is available under a free and open source software license, that copyright license does not include a license to use our trademark, and this Policy is intended to explain how to use our marks consistent with background law and community expectation.
 
 This Policy covers:
-1.	Our **word** trademarks and service marks: Apache DevLake(incubating), DevLake
-2.	Our **logos**: The Apache DevLake(incubating) logo at the top of the this website's menu bar 
+1.	Our **word** trademarks and service marks: Apache DevLake, DevLake
+2.	Our **logos**: The Apache DevLake logo at the top of the this website's menu bar 
 
 This policy encompasses all trademarks and service marks, whether they are registered or not.
 
