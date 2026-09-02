@@ -78,7 +78,7 @@ To take an example we will analyze 2 `projects`: DevLake and [Spark](https://spa
 Both are independent of each other. Assume that ASF wants to check the health of the development
 and maintenance of these projects with DORA.
 
-DevLake manages 3 `repos`: [incubator-devlake](https://github.com/apache/incubator-devlake), 
+DevLake manages 3 `repos`: [devlake](https://github.com/apache/devlake), 
 [devlake-website](https://github.com/apache/devlake-website), 
 and [devlake-helm-chart](https://github.com/apache/devlake-helm-chart).
 There are many repos related to _Spark_ in one way or another. To keep it simple, 
@@ -222,4 +222,4 @@ project that uses that webhook**. More information available on the [Webhook](/d
 
 Please check out the [Debugging DORA Issue Metrics](../Troubleshooting/Dashboard.md#debugging-dora-issue-metrics) to debug DORA dashboard.
 
-If you still run into any problems, please check the [Troubleshooting](/docs/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you still run into any problems, please check the [Troubleshooting](/docs/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/devlake/issues)

@@ -52,4 +52,4 @@ WIP
 
 ## None of them solve your problem?
 
-Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/incubator-devlake/issues)
+Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/devlake/issues)

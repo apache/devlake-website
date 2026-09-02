@@ -214,4 +214,4 @@ To create the DORA dashboard with your own toolchain, please look at the [config
 
 ## Troubleshooting
 
-If you run into any problem, please check the DORA debug dashboard, [DORA troubleshooting documentation](/Troubleshooting/Dashboard.md#debugging-dora-issue-metrics) or [create an issue](https://github.com/apache/incubator-devlake/issues) on GitHub.
+If you run into any problem, please check the DORA debug dashboard, [DORA troubleshooting documentation](/Troubleshooting/Dashboard.md#debugging-dora-issue-metrics) or [create an issue](https://github.com/apache/devlake/issues) on GitHub.

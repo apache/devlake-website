@@ -55,8 +55,8 @@
 - Checkout to the branch/commit
 
 ```shell
-git clone https://github.com/apache/incubator-devlake.git
-cd incubator-devlake
+git clone https://github.com/apache/devlake.git
+cd devlake
 git checkout b268d53a48edb26d3c9b73b782798703f068f655
 ```
 
@@ -110,19 +110,19 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
 
    - Start the [vote](https://lists.apache.org/thread/2v2so22fj9mg5h7jck1opsqhjyc86k06) by sending an email to <dev@devlake.apache.org>
   
-     Title: [VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+     Title: [VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
      Content:
      ```
       Hello everyone,
 
-      This is a call for vote to release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+      This is a call for vote to release Apache DevLake v{{.Version}}-rc{{.RC}}
 
       The release candidates:
       https://dist.apache.org/repos/dist/dev/incubator/devlake/{{.Version}}-incubating-rc{{.RC}}/
 
       Git tag for the release:
-      https://github.com/apache/incubator-devlake/releases/tag/v{{.Version}}-rc{{.RC}}
+      https://github.com/apache/devlake/releases/tag/v{{.Version}}-rc{{.RC}}
 
       Keys to verify the Release Candidate:
       https://downloads.apache.org/incubator/devlake/KEYS
@@ -143,7 +143,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
       {{.YourName}}
      ```
    - Announce the [vote](https://lists.apache.org/thread/wfzzjv53vfxml54098o6dt4913j47d4j) result:
-    Title: [RESULT][VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    Title: [RESULT][VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
      ```
@@ -163,14 +163,14 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
 
 2. Apache incubator community vote:
    - Start the [vote](https://lists.apache.org/thread/5dbqc3t2bq7kfqccobrh7j9vqopj030k) by sending an email to general@incubator.apache.org
-    Title: [VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    Title: [VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
     ```
     Hello everyone,
 
-    This is a call for vote to release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}.
-    The Apache DevLake community has voted on and approved a proposal to release Apache DevLake (Incubating) version v{{.Version}}-rc{{.RC}}.
+    This is a call for vote to release Apache DevLake v{{.Version}}-rc{{.RC}}.
+    The Apache DevLake community has voted on and approved a proposal to release Apache DevLake version v{{.Version}}-rc{{.RC}}.
 
     Community vote thread:
     [Community Vote Thread]({{.VoteThreadURL}})
@@ -203,13 +203,13 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
     ```
    - Announce the [vote](https://lists.apache.org/thread/40ktrw42c7hpok7vj33ql6wgdq2mpg92) result:
     Title:
-    [RESULT][VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    [RESULT][VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
     ```
     Hello everyone,
 
-    I am pleased to announce that the vote for Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}} has now concluded. Thank you all for your review and participation in the voting process.
+    I am pleased to announce that the vote for Apache DevLake v{{.Version}}-rc{{.RC}} has now concluded. Thank you all for your review and participation in the voting process.
 
     The release voting has passed with {{bindingVotes}} binding votes, {{nonBindingVotes}} non-binding vote and no +0 or -1 votes.
 
@@ -251,7 +251,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   ```
   Hello everyone,
 
-  The Apache DevLake (Incubating) {{.Version}}-incubating has been released!
+  The Apache DevLake {{.Version}}-incubating has been released!
 
   **Apache DevLake** is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to distill insights for engineering productivity.
 
@@ -265,7 +265,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   Website: https://devlake.apache.org/
 
   Resources:
-  - Issue:https://github.com/apache/incubator-devlake/issues
+  - Issue:https://github.com/apache/devlake/issues
   - Mailing list: dev@devlake.apache.org
 
   Best Regards,
@@ -292,4 +292,4 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   git tag v0.16.0
   git push origin v0.16.0
   ```
-- Open the URL `https://github.com/apache/incubator-devlake/releases/`, draft a new release, fill in the form and upload two files `docker-compose.yml` and `env.example`
+- Open the URL `https://github.com/apache/devlake/releases/`, draft a new release, fill in the form and upload two files `docker-compose.yml` and `env.example`

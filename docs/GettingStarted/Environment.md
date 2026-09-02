@@ -16,7 +16,7 @@ This environment variable is used to enable or disable the execution of subtasks
 
 The format is as follows: plugin_name1:subtask_name1:enabled_value,plugin_name2:subtask_name2:enabled_value,plugin_name3:subtask_name3:enabled_value
 
-Guidance on locating the [plugin_name and subtask_name](https://github.com/apache/incubator-devlake/blob/release-v1.0/backend/plugins/jira/tasks/issue_changelog_collector.go#L41):
+Guidance on locating the [plugin_name and subtask_name](https://github.com/apache/devlake/blob/release-v1.0/backend/plugins/jira/tasks/issue_changelog_collector.go#L41):
 
 - plugin_name: Represents the plugin's name, such as 'jira' for the Jira plugin.
 - subtask_name: Denotes the subtask's name, like 'collectIssueChangelogs' for the Jira plugin."

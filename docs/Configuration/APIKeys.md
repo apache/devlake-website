@@ -31,4 +31,4 @@ It is typically not necessary to manually create an API key from the 'API keys' 
 
 ## Troubleshooting
 
-If you run into any problems, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problems, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/devlake/issues)

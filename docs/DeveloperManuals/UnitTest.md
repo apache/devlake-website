@@ -23,7 +23,7 @@ Here are some resources for writing UnitTest for golang:
 
 # Test case examples 
 
-- [Source code](https://github.com/apache/incubator-devlake/blob/243cc8a80aa5b37828e2a142ac9f7e3269b7e1dc/backend/core/migration/migrator_test.go)
+- [Source code](https://github.com/apache/devlake/blob/243cc8a80aa5b37828e2a142ac9f7e3269b7e1dc/backend/core/migration/migrator_test.go)
 
 # Recommended Libraries for writing UnitTest cases
 

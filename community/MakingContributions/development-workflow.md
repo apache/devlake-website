@@ -9,7 +9,7 @@ This document shows the workflow of how to develop DevLake.
 
 ## Step 1 - Fork the repo
 
-1. Visit the DevLake repo: https://github.com/apache/incubator-devlake;
+1. Visit the DevLake repo: https://github.com/apache/devlake;
 2. Click the Fork button to create a fork of the DevLake;
 3. We assume your fork is called `https://github.com/{user}/{repo}`.
 
@@ -21,13 +21,13 @@ This document shows the workflow of how to develop DevLake.
 ```sh
 mkdir -p ${WORKING_PATH}
 cd ${WORKING_PATH}
-# You can also use the url: github.com/apache/incubator-devlake
+# You can also use the url: github.com/apache/devlake
 # if your ssh configuration is proper
 git clone https://github.com/{user}/{repo}.git
 
 cd ${PROJECT}
 
-git remote add upstream https://github.com/apache/incubator-devlake.git
+git remote add upstream https://github.com/apache/devlake.git
 # Never push to upstream locally
 git remote set-url --push upstream no_push
 ```
@@ -37,9 +37,9 @@ git remote set-url --push upstream no_push
 Execute `git remote -v` and you'll see output like below:
 
 ```sh
-origin  github.com/{user}/incubator-devlake.git (fetch)
-origin  github.com/{user}/incubator-devlake.git (push)
-upstream        https://github.com/apache/incubator-devlake.git (fetch)
+origin  github.com/{user}/devlake.git (fetch)
+origin  github.com/{user}/devlake.git (push)
+upstream        https://github.com/apache/devlake.git (fetch)
 upstream        no_push (push)
 ```
 

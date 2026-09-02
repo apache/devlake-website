@@ -14,8 +14,8 @@ Please check the [GettingStarted/Upgrade](../GettingStarted/Upgrade.md) doc for 
 
 One of the known root causes of the phonomenon is the Dynatrace agent being injected into the container. 
 Excluding the namespace from the Dynatrace deployments should fix the problem.
-Check [#5612](https://github.com/apache/incubator-devlake/issues/5612) if you needed more detail.
+Check [#5612](https://github.com/apache/devlake/issues/5612) if you needed more detail.
 
 ## None of them solve your problem?
 
-Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/incubator-devlake/issues)
+Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/devlake/issues)

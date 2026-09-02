@@ -79,7 +79,7 @@ More information about these columns at the domain layer tables: [cicd_deploymen
 
 #### Register a Deployment - Sample API Calls
 
-The payload supports the deployment to one or multiple repositories (referring to the [discussion](https://github.com/apache/incubator-devlake/discussions/6162)).
+The payload supports the deployment to one or multiple repositories (referring to the [discussion](https://github.com/apache/devlake/discussions/6162)).
 
 Please replace the `API_KEY` with the real token generated after creating a webhook.
 

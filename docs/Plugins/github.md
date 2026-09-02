@@ -119,7 +119,7 @@ curl 'http://localhost:8080/pipelines' \
         "options": {
           "connectionId": 1,
           "owner": "apache",
-          "repo": "incubator-devlake",
+          "repo": "devlake",
           "transformationRules":{
             "deploymentPattern":"",
             "productionPattern":"",

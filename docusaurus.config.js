@@ -280,7 +280,7 @@ const versions = require('./versions.json');
               },
               {
                 label: 'GitHub Issue Tracker',
-                to: 'https://github.com/apache/incubator-devlake/issues',
+                to: 'https://github.com/apache/devlake/issues',
               },
               {
                 label: 'GitHub Issue Tracker For Docs',

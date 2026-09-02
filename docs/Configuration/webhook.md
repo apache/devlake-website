@@ -48,4 +48,4 @@ Note: If you post incidents using webhook due to your tool not being supported b
 
 ## Troubleshooting
 
-If you run into any problems, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/incubator-devlake/issues).
+If you run into any problems, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/devlake/issues).
