@@ -55,9 +55,9 @@ Three modes.
 - First, re-run the failed task once all other tasks have completed. If the task still fails, proceed to the next steps.
 - Capture a screenshot of the error message associated with the failed task.
 - Download the logs from the pipeline for further analysis.
-- Visit the [GitHub repository](https://github.com/apache/incubator-devlake/issues) and create a bug report. Include the captured screenshot and the downloaded logs in the bug report.
+- Visit the [GitHub repository](https://github.com/apache/devlake/issues) and create a bug report. Include the captured screenshot and the downloaded logs in the bug report.
 
    ![img](/img/ConfigUI/BlueprintEditing/blueprint-edit3.png)
 
 
-For other problems, please check the [troubleshooting](/Troubleshooting/Configuration.md) doc, [create an issue](https://github.com/apache/incubator-devlake/issues), or contact us on [Slack](https://join.slack.com/t/devlake-io/shared_invite/zt-1lkgbdmys-AU2azidzO1u~mtjlg9my7A).
+For other problems, please check the [troubleshooting](/Troubleshooting/Configuration.md) doc, [create an issue](https://github.com/apache/devlake/issues), or contact us on [Slack](https://join.slack.com/t/devlake-io/shared_invite/zt-1lkgbdmys-AU2azidzO1u~mtjlg9my7A).

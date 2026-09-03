@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## Launch DevLake
 
-1. Download `docker-compose.yml` and `env.example` from the [latest release](https://github.com/apache/incubator-devlake/releases) into a folder.
+1. Download `docker-compose.yml` and `env.example` from the [latest release](https://github.com/apache/devlake/releases) into a folder.
 2. Rename `env.example` to `.env`. For Mac/Linux users, please run `mv env.example .env` in the terminal. This file contains the environment variables that the Devlake server will use. Additional ones can be found in the compose file(s).
 3. Generate a secure encryption key using a method such as OpenSSL. For example, run the following command to generate a 128-character string consisting of uppercase letters:
 
@@ -52,7 +52,7 @@ sidebar_position: 2
 :::
 
 1. Run `docker-compose down` to stop services;
-2. Download `docker-compose.yml` and `env.example` from the [latest release](https://github.com/apache/incubator-devlake/releases).
+2. Download `docker-compose.yml` and `env.example` from the [latest release](https://github.com/apache/devlake/releases).
 3. Use the new `docker-compose.yml` and `env.example` to replace the old `docker-compose.yml` and `.env`; Or if you have modified/customized values in the old files, compare the new files with the old ones, adjust the old files according to the new ones.
 4. [Optional] If you are upgrading from earlier versions to v0.18.0+, set the ENCRYPTION_SECRET environment variable in docker-compose.yml or .env file, refer to the second caution.
 5. Run `docker-compose up -d` to start DevLake services.
@@ -170,10 +170,10 @@ config-ui:
 
 5. If you want to import dashboards, please check https://grafana.com/docs/grafana/latest/dashboards/export-import/.
 
-- You can find DevLake's self-built Grafana dashboards here (https://github.com/apache/incubator-devlake/tree/main/grafana/dashboards).
+- You can find DevLake's self-built Grafana dashboards here (https://github.com/apache/devlake/tree/main/grafana/dashboards).
 
 6. Final step: `docker compose up -d`
 
 ## Troubleshooting
 
-If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/devlake/issues)

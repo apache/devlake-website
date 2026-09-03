@@ -23,8 +23,8 @@ The following guide will walk through how to run DevLake's frontend (`config-ui`
 1. Navigate to where you would like to install this project and clone the repository:
 
    ```sh
-   git clone https://github.com/apache/incubator-devlake.git
-   cd incubator-devlake
+   git clone https://github.com/apache/devlake.git
+   cd devlake
    ```
 
 2. Install dependencies for plugins:
@@ -128,4 +128,4 @@ For provisioning, customizing, and creating dashboards, please refer to our [Gra
 
 ## References
 
-To dig deeper into developing and utilizing our built-in functions and have a better developer experience, feel free to dive into our [godoc](https://pkg.go.dev/github.com/apache/incubator-devlake) reference.
+To dig deeper into developing and utilizing our built-in functions and have a better developer experience, feel free to dive into our [godoc](https://pkg.go.dev/github.com/apache/devlake) reference.

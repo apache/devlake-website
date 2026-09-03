@@ -11,7 +11,7 @@ So, we decided, no more competition, you can pick whatever
 you like from our github issue pages, or even create your own one if no more left! 
 We are community after all!
 
-Now, how do we proceed? It's simple! Go to our [issues page](https://github.com/apache/incubator-devlake/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), and then click here. all our Good First Issue are listed out here.
+Now, how do we proceed? It's simple! Go to our [issues page](https://github.com/apache/devlake/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), and then click here. all our Good First Issue are listed out here.
 ![good first issue](/img/Community/screenshots/issue_page_screenshot.png)
 
 - Firstly, go for existing issues if any, find one that you like, 

@@ -24,6 +24,6 @@ Please follow the guide for detailed information:
 
 > Error: UPGRADE FAILED: cannot patch "devlake-grafana" with kind Deployment: Deployment.apps "devlake-grafana" is invalid: spec.selector: Invalid value: v1.LabelSelector{MatchLabels:map[string]string{"app.kubernetes.io/instance":"devlake", "app.kubernetes.io/name":"grafana"}, MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: field is immutable
 
-6. When upgrading via docker-compose.yml, please download the new docker-compose.yml and env.example from [release assets](https://github.com/apache/incubator-devlake/releases) to do the upgrade, please refer to [docker compose upgrade notes](./DockerComposeSetup.md)
+6. When upgrading via docker-compose.yml, please download the new docker-compose.yml and env.example from [release assets](https://github.com/apache/devlake/releases) to do the upgrade, please refer to [docker compose upgrade notes](./DockerComposeSetup.md)
 
 These notes provide guidance on upgrading your Apache DevLake to a newer version. Ensure you follow them carefully to avoid any issues during the upgrade process.

@@ -53,4 +53,4 @@ Please go to the `Blueprints` page and switch to advanced mode. See how to use a
 
 ## Troubleshooting
 
-If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/devlake/issues)

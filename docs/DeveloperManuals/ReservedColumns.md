@@ -111,5 +111,5 @@ When defining a new tool-layer or domain-layer model:
 
 ## References
 
-- Base model definition: [`models/common`](https://github.com/apache/incubator-devlake/tree/main/backend/core/models/common)
-- [PR #8701](https://github.com/apache/incubator-devlake/pull/8701) — CircleCI column naming fix that prompted this convention to be formally documented.
+- Base model definition: [`models/common`](https://github.com/apache/devlake/tree/main/backend/core/models/common)
+- [PR #8701](https://github.com/apache/devlake/pull/8701) — CircleCI column naming fix that prompted this convention to be formally documented.

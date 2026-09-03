@@ -40,4 +40,4 @@ Security is complicated, all suggestions listed above are based on what we learn
 
 ## Troubleshooting
 
-If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/devlake/issues)

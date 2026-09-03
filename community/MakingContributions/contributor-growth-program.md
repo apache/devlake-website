@@ -3,7 +3,7 @@ sidebar_position: 04
 title: "Becoming a Committer"
 ---
 
-The Apache Devlake (Incubating) community follows the [Apache Software Foundation's guidelines](https://community.apache.org/contributors/) on accepting new committers.
+The Apache Devlake community follows the [Apache Software Foundation's guidelines](https://community.apache.org/contributors/) on accepting new committers.
 
 First, we deeply value the contribution from our community, in the forms of writing code, answering questions, maintaining documentation, arranging events, among a plethora of others. New contributors will always be welcomed by the current members of DevLake community, helped with PR workflow, and directed to relevant documentation and communication channels.
 

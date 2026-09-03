@@ -248,4 +248,4 @@ In the `plugins/dora/impl/impl.go` file, there is a `Dora` plugin implementation
 
 ## References
 
-To dig deeper into developing and utilizing our built-in functions and have a better developer experience, feel free to dive into our [godoc](https://pkg.go.dev/github.com/apache/incubator-devlake) reference.
+To dig deeper into developing and utilizing our built-in functions and have a better developer experience, feel free to dive into our [godoc](https://pkg.go.dev/github.com/apache/devlake) reference.

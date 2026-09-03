@@ -44,7 +44,7 @@ Collect multiple GitHub repos sequentially. Below is an example for collecting 2
       "Plugin": "github",
       "Options": {
         "connectionId": 1,
-        "repo": "incubator-devlake",
+        "repo": "devlake",
         "owner": "apache"
       }
     },
@@ -63,8 +63,8 @@ Collect multiple GitHub repos sequentially. Below is an example for collecting 2
 GitHub:
 
 - `connectionId`: The ID of your GitHub connection at page http://localhost:4000/connections/github.
-- `owner`: Just take a look at the URL: https://github.com/apache/incubator-devlake, owner is `apache`.
-- `repo`: Just take a look at the URL: https://github.com/apache/incubator-devlake, repo is `incubator-devlake`.
+- `owner`: Just take a look at the URL: https://github.com/apache/devlake, owner is `apache`.
+- `repo`: Just take a look at the URL: https://github.com/apache/devlake, repo is `devlake`.
 
 ### 2. GitLab
 
@@ -393,4 +393,4 @@ To edit a Blueprint created in the Advanced mode, you can simply go the Configur
 
 ## Troubleshooting
 
-If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Configuration.md) or [create an issue](https://github.com/apache/devlake/issues)

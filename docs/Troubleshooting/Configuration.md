@@ -11,7 +11,7 @@ description: >
 | ---------- | ----------------------------|--------|-----------|
 | 429        | subtask collectAPiPipelines ended unexpectedly caused: Error waiting for async Collector execution caused by: retry exceeded 3 times calling projects/{projectId}/pipelines {429} | This error exmaple is caused by GitLab's Pipeline APIs. These APIs are implemented via Cloudflare, which is different from other GitLab entities. | Two ways: <br/> - Enable `fixed rate limit` in the GitLab connection, lower the API rates to 2,000. If it works, you can try increase the rates to accerlerate. This solution also applies to other plugins that return the 429 while collecting data, such as GitHub, TAPD, etc. <br/> - Upgrade to v0.15.x  |
 | 403        | error: preparing task data for gitextractor caused by: unexpected http status code: 403 | This is usually caused by the permission of your tokens. For example, if you're using an un-supported auth method, or using a token without ticking permissions to certain entities you want to collect. | Find the supported authentication methods and token permissions that should be selected in the corresponding plugin's Config UI manuals, for example, [configuring GitHub](/docs/Configuration/GitHub.md#auth-tokens) |
-| 1406       | subtask extractApiBuilds ended unexpectedly caused by: error adding the result to batch caused by: Error 1406: Data too long for column 'full_display_name' at row 138. See bug [#4053](https://github.com/apache/incubator-devlake/issues/4053) | This is usually thrown by MySQL because a certain value is too long | A work-around is to manually change the field length to varchar(255) or longer in MySQL. Also, please put up a [bug](https://github.com/apache/incubator-devlake/issues/new?assignees=&labels=type%2Fbug&template=bug-report.yml&title=%5BBug%5D%5BModule+Name%5D+Bug+title+) to let us know. | 
+| 1406       | subtask extractApiBuilds ended unexpectedly caused by: error adding the result to batch caused by: Error 1406: Data too long for column 'full_display_name' at row 138. See bug [#4053](https://github.com/apache/devlake/issues/4053) | This is usually thrown by MySQL because a certain value is too long | A work-around is to manually change the field length to varchar(255) or longer in MySQL. Also, please put up a [bug](https://github.com/apache/devlake/issues/new?assignees=&labels=type%2Fbug&template=bug-report.yml&title=%5BBug%5D%5BModule+Name%5D+Bug+title+) to let us know. | 
 
 
 ### Failed to collect data from the server with a self-signed certificate
@@ -39,7 +39,7 @@ Here is an example of the `docker-compose`` installation, the idea applies to ot
 ```
 
 ### GitExtractor task failed in a GitHub/GitLab/BitBucket blueprint
-See bug [#3719](https://github.com/apache/incubator-devlake/issues/3719)
+See bug [#3719](https://github.com/apache/devlake/issues/3719)
 
 This bug happens occasionally in v0.14.x and previous versions. It is fixed by changing the docker base image. Please upgrade to v0.15.x to get it fixed if you encounter it.
 
@@ -48,8 +48,8 @@ This bug happens occasionally in v0.14.x and previous versions. It is fixed by c
 
 We have had a couple of reports suggesting MySQL InnoDB would fail with the message.
 
-- [Error 1206: The total number of locks exceeds the lock table size · Issue #3849 · apache/incubator-devlake](https://github.com/apache/incubator-devlake/issues/3849)
-- [[Bug][GitLab] gitlab collectApiJobs task failed for mysql locks error · Issue #3653 · apache/incubator-devlake](https://github.com/apache/incubator-devlake/issues/3653)
+- [Error 1206: The total number of locks exceeds the lock table size · Issue #3849 · apache/devlake](https://github.com/apache/devlake/issues/3849)
+- [[Bug][GitLab] gitlab collectApiJobs task failed for mysql locks error · Issue #3653 · apache/devlake](https://github.com/apache/devlake/issues/3653)
 
 The cause of the problem is:
 
@@ -70,7 +70,7 @@ Here is an example of the `docker-compose` installation, the idea applies to oth
 
 ### GitHub repositories keep loading when adding data scopes
 
-See issue [#6038](https://github.com/apache/incubator-devlake/issues/6038)
+See issue [#6038](https://github.com/apache/devlake/issues/6038)
 
 If you're having trouble adding data scopes to a GitHub connection because the repositories keep loading, there are a few things you can check:
 1. Make sure your access token has the necessary permissions.
@@ -80,4 +80,4 @@ For more details about authenticating with SAML single sign-on, see here: https:
 
 ## None of them solve your problem?
 
-Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/incubator-devlake/issues)
+Sorry for the inconvenience, please help us improve by [creating an issue](https://github.com/apache/devlake/issues)

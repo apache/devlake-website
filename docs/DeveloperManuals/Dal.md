@@ -155,7 +155,7 @@ mocks
 ```
 With these Mocking stubs, you may start writing your TestCases using the `mocks.Dal`.
 ```go
-import "github.com/apache/incubator-devlake/mocks"
+import "github.com/apache/devlake/mocks"
 
 func TestCreateUser(t *testing.T) {
     mockDal := new(mocks.Dal)

@@ -1,12 +1,12 @@
 # DevLake Release Guide
 
-**Please make sure your public key was included in the https://downloads.apache.org/incubator/devlake/KEYS , if not, please update this file first.**
+**Please make sure your public key was included in the https://downloads.apache.org/devlake/KEYS , if not, please update this file first.**
 
 ## How to update KEYS
 
 1. Clone the svn repository
    ```shell
-   svn co https://dist.apache.org/repos/dist/dev/incubator/devlake
+   svn co https://dist.apache.org/repos/dist/dev/devlake
    ```
 2. Append your public key to the KEYS file
    cd devlake
@@ -28,7 +28,7 @@
    ```shell
    svn add KEYS
    svn commit -m "update KEYS"
-   svn cp https://dist.apache.org/repos/dist/dev/incubator/devlake/KEYS https://dist.apache.org/repos/dist/release/incubator/devlake/ -m "update KEYS"
+   svn cp https://dist.apache.org/repos/dist/dev/devlake/KEYS https://dist.apache.org/repos/dist/release/devlake/ -m "update KEYS"
    ```
    We will use `v0.16.0` as an example to demonstrate the release process.
 
@@ -55,8 +55,8 @@
 - Checkout to the branch/commit
 
 ```shell
-git clone https://github.com/apache/incubator-devlake.git
-cd incubator-devlake
+git clone https://github.com/apache/devlake.git
+cd devlake
 git checkout b268d53a48edb26d3c9b73b782798703f068f655
 ```
 
@@ -71,7 +71,7 @@ git checkout b268d53a48edb26d3c9b73b782798703f068f655
   ```shell
   git archive --format=tar.gz --output="<the-output-dir>/apache-devlake-0.16.0-incubating-src.tar.gz" --prefix="apache-devlake-0.16.0-incubating-src/" v0.16.0-rc2
   ```
-- Before proceeding to the next step, please make sure your public key was included in the https://downloads.apache.org/incubator/devlake/KEYS
+- Before proceeding to the next step, please make sure your public key was included in the https://downloads.apache.org/devlake/KEYS
 - Create signature and checksum
   ```shell
   cd <the-output-dir>
@@ -88,7 +88,7 @@ git checkout b268d53a48edb26d3c9b73b782798703f068f655
 
 - Clone the svn repository
   ```shell
-  svn co https://dist.apache.org/repos/dist/dev/incubator/devlake
+  svn co https://dist.apache.org/repos/dist/dev/devlake
   ```
 - Copy the files into the svn local directory
   ```shell
@@ -104,28 +104,28 @@ git checkout b268d53a48edb26d3c9b73b782798703f068f655
 
 ## Vote
 
-You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist) before voting.
+You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/display/Incubator+Release+Checklist) before voting.
 
 1. Devlake community vote:
 
    - Start the [vote](https://lists.apache.org/thread/2v2so22fj9mg5h7jck1opsqhjyc86k06) by sending an email to <dev@devlake.apache.org>
   
-     Title: [VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+     Title: [VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
      Content:
      ```
       Hello everyone,
 
-      This is a call for vote to release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+      This is a call for vote to release Apache DevLake v{{.Version}}-rc{{.RC}}
 
       The release candidates:
-      https://dist.apache.org/repos/dist/dev/incubator/devlake/{{.Version}}-incubating-rc{{.RC}}/
+      https://dist.apache.org/repos/dist/dev/devlake/{{.Version}}-incubating-rc{{.RC}}/
 
       Git tag for the release:
-      https://github.com/apache/incubator-devlake/releases/tag/v{{.Version}}-rc{{.RC}}
+      https://github.com/apache/devlake/releases/tag/v{{.Version}}-rc{{.RC}}
 
       Keys to verify the Release Candidate:
-      https://downloads.apache.org/incubator/devlake/KEYS
+      https://downloads.apache.org/devlake/KEYS
 
       How to build:
       https://devlake.apache.org/docs/DeveloperManuals/DeveloperSetup
@@ -143,7 +143,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
       {{.YourName}}
      ```
    - Announce the [vote](https://lists.apache.org/thread/wfzzjv53vfxml54098o6dt4913j47d4j) result:
-    Title: [RESULT][VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    Title: [RESULT][VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
      ```
@@ -163,14 +163,14 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
 
 2. Apache incubator community vote:
    - Start the [vote](https://lists.apache.org/thread/5dbqc3t2bq7kfqccobrh7j9vqopj030k) by sending an email to general@incubator.apache.org
-    Title: [VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    Title: [VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
     ```
     Hello everyone,
 
-    This is a call for vote to release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}.
-    The Apache DevLake community has voted on and approved a proposal to release Apache DevLake (Incubating) version v{{.Version}}-rc{{.RC}}.
+    This is a call for vote to release Apache DevLake v{{.Version}}-rc{{.RC}}.
+    The Apache DevLake community has voted on and approved a proposal to release Apache DevLake version v{{.Version}}-rc{{.RC}}.
 
     Community vote thread:
     [Community Vote Thread]({{.VoteThreadURL}})
@@ -185,7 +185,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
     [Git Tag]({{.GitTagURL}})
 
     Keys to verify the Release Candidate:
-    https://downloads.apache.org/incubator/devlake/KEYS
+    https://downloads.apache.org/devlake/KEYS
 
     How to build:
     https://devlake.apache.org/docs/DeveloperManuals/DeveloperSetup/
@@ -203,13 +203,13 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
     ```
    - Announce the [vote](https://lists.apache.org/thread/40ktrw42c7hpok7vj33ql6wgdq2mpg92) result:
     Title:
-    [RESULT][VOTE] Release Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}}
+    [RESULT][VOTE] Release Apache DevLake v{{.Version}}-rc{{.RC}}
 
     Content:
     ```
     Hello everyone,
 
-    I am pleased to announce that the vote for Apache DevLake (Incubating) v{{.Version}}-rc{{.RC}} has now concluded. Thank you all for your review and participation in the voting process.
+    I am pleased to announce that the vote for Apache DevLake v{{.Version}}-rc{{.RC}} has now concluded. Thank you all for your review and participation in the voting process.
 
     The release voting has passed with {{bindingVotes}} binding votes, {{nonBindingVotes}} non-binding vote and no +0 or -1 votes.
 
@@ -236,12 +236,12 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
 
 - Move the release to the ASF content distribution system
   ```shell
-  svn mv https://dist.apache.org/repos/dist/dev/incubator/devlake/0.16.0-incubating-rc2 https://dist.apache.org/repos/dist/release/incubator/devlake/0.16.0-incubating -m "transfer packages for 0.16.0-incubating-rc2"
+  svn mv https://dist.apache.org/repos/dist/dev/devlake/0.16.0-incubating-rc2 https://dist.apache.org/repos/dist/release/devlake/0.16.0-incubating -m "transfer packages for 0.16.0-incubating-rc2"
   ```
-- Wait until the directory `https://downloads.apache.org/incubator/devlake/0.16.0-incubating/` was created
+- Wait until the directory `https://downloads.apache.org/devlake/0.16.0-incubating/` was created
 - Remove the last release from `https://downloads.apache.org/` (according the Apache release policy, this link should be pointing to the current release)
   ```shell
-  svn rm https://dist.apache.org/repos/dist/release/incubator/devlake/0.15.0-incubating -m "remove 0.15.0-incubating"
+  svn rm https://dist.apache.org/repos/dist/release/devlake/0.15.0-incubating -m "remove 0.15.0-incubating"
   ```
 - Announce [release](https://lists.apache.org/thread/czf6p3xtlkq6t8g4q35blkbf2xclsl3p) by sending an email to general@incubator.apache.org
   Title: 
@@ -251,11 +251,11 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   ```
   Hello everyone,
 
-  The Apache DevLake (Incubating) {{.Version}}-incubating has been released!
+  The Apache DevLake {{.Version}}-incubating has been released!
 
   **Apache DevLake** is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to distill insights for engineering productivity.
 
-  Download Links: https://downloads.apache.org/incubator/devlake/
+  Download Links: https://downloads.apache.org/devlake/
 
   Changelogs:
   - xxx.
@@ -265,7 +265,7 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   Website: https://devlake.apache.org/
 
   Resources:
-  - Issue:https://github.com/apache/incubator-devlake/issues
+  - Issue:https://github.com/apache/devlake/issues
   - Mailing list: dev@devlake.apache.org
 
   Best Regards,
@@ -292,4 +292,4 @@ You can check [Incubator Release Checklist](https://cwiki.apache.org/confluence/
   git tag v0.16.0
   git push origin v0.16.0
   ```
-- Open the URL `https://github.com/apache/incubator-devlake/releases/`, draft a new release, fill in the form and upload two files `docker-compose.yml` and `env.example`
+- Open the URL `https://github.com/apache/devlake/releases/`, draft a new release, fill in the form and upload two files `docker-compose.yml` and `env.example`
