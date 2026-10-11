@@ -206,6 +206,17 @@ If you are not familiar with Grafana, please refer to our [Grafana doc](Configur
 
 <br/><br/>
 
+## DORA for a monorepo
+
+DevLake measures DORA at the project level, and a project's scope is a repository. If a
+single repository hosts several logically separate projects — each with its own deploy job
+and its own PR label — all of them collapse into one set of DORA numbers.
+
+The [monorepo plugin](Plugins/monorepo.md) splits such a repository into sub-projects and
+computes per-sub-project Deployment Frequency and Lead Time for Changes.
+
+<br/>
+
 ## Try it Out
 
 To create the DORA dashboard with your own toolchain, please look at the [configuration tutorial](Configuration/Tutorial.md) and [project organization documentation](Configuration/HowToOrganizeDevlakeProjects.md) for more details.

@@ -465,6 +465,7 @@ Pull requests are the abstraction of GitHub pull requests, GitLab merge requests
 | `head_ref`         | varchar  | 255        | The branch name in the head repo that contains the changes that will be added to the base                                                                                                                                                                                                                                                                                                      |                |
 | `base_commit_sha`  | char     | 40         | The base commit of this PR.                                                                                                                                                                                                                                                                                                                                                                    |                |
 | `head_commit_sha`  | char     | 40         | The head commit of this PR.                                                                                                                                                                                                                                                                                                                                                                    |                |
+| `sub_project`      | varchar  | 100        | The monorepo sub-project this PR belongs to, matched by label. Written by the [monorepo plugin](../Plugins/monorepo.md); NULL when the project has no monorepo configuration.                                                                                                                                                                                                                  |                |
 
 #### pull_request_labels
 
@@ -489,6 +490,7 @@ The list is additive. This means if a rebase with commit squashing takes place a
 | `commit_author_name`   | varchar  | 255        | The name of the person who authored the commit           |                     |
 | `commit_author_email`  | varchar  | 255        | The email address of the person who authored the commit. |                     |
 | `commit_authored_date` | varchar  | 255        | The date and time when the commit was authored.          |                     |
+| `sub_project`          | varchar  | 100        | Mirrors the owning pull request's `sub_project`.          |                     |
 
 #### pull_request_comments
 
@@ -655,6 +657,20 @@ Normally, one deployment only deploy to one repo. But in some cases, one deploym
 | `repo_id`                           | varchar  | 255        | -                                                                                                                                                                                                                                                                                                                                                                                                |                   |
 | `repo_url`                          | varchar  | 191        | The url of the repo                                                                                                                                                                                                                                                                                                                                                                              |                   |
 | `prev_success_deployment_commit_id` | varchar  | 255        | The last successful deployment_commit_id before this one in the same `cicd_scope`, `repo` and `environment`, which is used to calculate the new commits deployed by this deployment, thereby measuring [DORA - change lead time](../Metrics/LeadTimeForChanges.md).                                                                                                                              |                   |
+
+#### cicd_deployment_subprojects
+
+Maps a deployment to the monorepo sub-project(s) it deployed. Rows are written by the [monorepo plugin](../Plugins/monorepo.md), which matches the name of the deploying CI job against each sub-project's configured pattern.
+
+The relationship is many-to-many: a pipeline that runs the deploy jobs of several sub-projects produces one row per sub-project, so dashboards can `GROUP BY sub_project` without double counting.
+
+Projects without monorepo configuration have no rows in this table at all; dashboards treat a missing mapping as the single, implicit `All` group.
+
+| **field**            | **type** | **length** | **description**                                                                          | **key** |
+|:---------------------|:---------|:-----------|:------------------------------------------------------------------------------------------|:--------|
+| `project_name`       | varchar  | 100        | The project this mapping belongs to                                                        | PK      |
+| `cicd_deployment_id` | varchar  | 255        | The deployment, matching [table.cicd_deployment_commits](#cicd_deployment_commits).`cicd_deployment_id` | PK      |
+| `sub_project`        | varchar  | 100        | The sub-project this deployment deployed                                                   | PK      |
 
 ### Domain 5 - Code Quality
 
@@ -929,6 +945,7 @@ metrics, such as _'No. of Issue closed by contributor', 'No. of commits by contr
 | `deployment_id`    | longtext |            | The id of cicd_task which deploy the commits of this PR                                |         |
 | `pr_deploy_time`   | bigint   |            | The time it takes from when a PR is merged to when it is deployed                      |         |
 | `pr_cycle_time`    | bigint   |            | The total time from the first commit to when the PR is deployed                        |         |
+| `sub_project`      | varchar  | 100        | The monorepo sub-project of this PR, copied from [table.pull_requests](#pull_requests) |         |
 
 #### project_issue_metrics
 
