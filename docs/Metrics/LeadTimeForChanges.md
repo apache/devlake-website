@@ -24,6 +24,8 @@ This metric is quite similar to [PR Cycle Time](PRCycleTime.md). The difference 
 2. Find the associated pull requests of the commits diff between two consecutive successful `deployment commits` in the production environment.
 3. Calculate the PRs' median cycle time. This will be the Median Lead Time for Changes.
 
+By default, every merged PR counts. To count only PRs from certain source branches, see [Choose which pull requests count](#choose-which-pull-requests-count-optional).
+
 ![](../Configuration/images/lead_time_for_changes_definition.png)
 
 [PR cycle time](../Metrics/PRCycleTime.md) is pre-calculated by the `dora` plugin during every data collection. You can find it in `pr_cycle_time` in [table.project_pr_metrics](https://devlake.apache.org/docs/DataModels/DevLakeDomainLayerSchema/#project_pr_metrics) of DevLake's database.
@@ -169,6 +171,47 @@ SELECT
 	END AS median_change_lead_time
 FROM _median_change_lead_time
 ```
+
+## Choose which pull requests count (optional)
+
+Some teams merge changes into an intermediate branch first, then merge that branch into production with one more PR, for example `feat/a` → `release-uat` → `production`. By default, both PRs count, so the same change is measured twice. Set a **source branch pattern** to count only the PRs that carry the actual change.
+
+To set it:
+
+1. Open **Projects** → your project → **Settings**.
+2. Tick **Enable DORA Metrics** and enter a regular expression in the input below it.
+3. Click **Save**, then re-run the project's blueprint. Re-transforming the data is enough; you don't need to collect it again.
+
+| Item                    | Behavior                                                                                                                       |
+|:------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| Matched against         | The PR's source branch (`pull_requests.head_ref`), e.g. GitHub `head.ref` or GitLab `source_branch`                            |
+| Syntax                  | [Go regular expression](https://pkg.go.dev/regexp/syntax) (RE2). Lookahead such as `(?!...)` is not supported                   |
+| Anchors                 | Not added for you. `feat/` also matches `my-feat/x`; use `^feat/` to match from the start                                      |
+| Case                    | Case-sensitive. Add `(?i)` to ignore case                                                                                      |
+| `refs/heads/` prefix    | Removed before matching (Azure DevOps)                                                                                         |
+| Empty                   | Every merged PR counts (default)                                                                                               |
+| Invalid expression      | The blueprint fails to start and reports `invalid prHeadRefPattern`                                                            |
+
+Examples:
+
+- `^(feat|fix)/`: only `feat/...` and `fix/...` branches.
+- `(?i)^(feat|fix|hotfix)/`: the same plus `hotfix/...`, ignoring case.
+
+PRs whose source branch does not match get no row in [table.project_pr_metrics](https://devlake.apache.org/docs/DataModels/DevLakeDomainLayerSchema/#project_pr_metrics). They are left out of Lead Time for Changes and of the PR time metrics that read this table: [PR Cycle Time](./PRCycleTime.md), [PR Coding Time](./PRCodingTime.md), [PR Pickup Time](./PRPickupTime.md), [PR Review Time](./PRReviewTime.md) and [PR Deploy Time](./PRDeployTime.md). The PRs themselves stay in `pull_requests`, so PR counts are not affected.
+
+The same option can be set through the API or the Config UI's [advanced mode](../Configuration/AdvancedMode.md) as the project's `dora` metric plugin option:
+
+```json
+{
+  "pluginName": "dora",
+  "enable": true,
+  "pluginOption": {
+    "prHeadRefPattern": "^(feat|fix)/"
+  }
+}
+```
+
+The source branch pattern is available after the `v1.0.3-beta18` release.
 
 ## How to improve?
 
