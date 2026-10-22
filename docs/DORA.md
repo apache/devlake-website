@@ -217,6 +217,16 @@ computes per-sub-project Deployment Frequency and Lead Time for Changes.
 
 <br/>
 
+## Count only some pull requests
+
+By default, every merged pull request counts toward Lead Time for Changes. If your team
+merges changes through an intermediate branch, such as `release-uat`, the same change can
+be counted twice. Set a source branch pattern on the project to count only the pull
+requests from matching branches. See
+[Choose which pull requests count](Metrics/LeadTimeForChanges.md#choose-which-pull-requests-count-optional).
+
+<br/>
+
 ## Try it Out
 
 To create the DORA dashboard with your own toolchain, please look at the [configuration tutorial](Configuration/Tutorial.md) and [project organization documentation](Configuration/HowToOrganizeDevlakeProjects.md) for more details.

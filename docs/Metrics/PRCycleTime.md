@@ -21,6 +21,8 @@ PR Cycle Time indicates the overall velocity of the delivery progress in terms o
 ## How is it calculated?
 You can define `deployment` based on your actual practice. For a full list of `deployment`'s definitions that DevLake support, please refer to [Deployment Frequency](/docs/Metrics/DeploymentFrequency.md).
 
+If the project sets a DORA source branch pattern, only PRs whose source branch matches it are measured. See [Choose which pull requests count](./LeadTimeForChanges.md#choose-which-pull-requests-count-optional).
+
 <b>Data Sources Required</b>
 
 This metric relies on PRs/MRs collected from GitHub, GitLab, BitBucket, Gitee or other code review tools.
