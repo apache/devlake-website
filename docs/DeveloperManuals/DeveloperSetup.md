@@ -121,10 +121,38 @@ For provisioning, customizing, and creating dashboards, please refer to our [Gra
 
 ## Compiling
 
-    - Compile all plugins: `make build-plugin`
-    - Compile specific plugins: `PLUGIN=<PLUGIN_NAME> make build-plugin`
-    - Compile server: `make build`
-    - Compile worker: `make build-worker`
+`make build` produces a single `bin/lake` binary: the framework, the API and every official plugin are compiled into it.
+
+```sh
+cd backend
+make build
+```
+
+While iterating you usually do not want all of them. `DEVLAKE_PLUGINS` takes a comma-separated list:
+
+```sh
+DEVLAKE_PLUGINS=jira,gitlab make build
+```
+
+To build plugins as shared objects instead — to sideload them into an existing binary, or to ship a server without any plugin compiled in — use:
+
+```sh
+make build-plugin                              # every plugin
+DEVLAKE_PLUGINS=jira,gitlab make build-plugin  # a subset
+```
+
+The output lands in `bin/plugins/<name>/<name>.so`.
+
+## Sideloading plugins
+
+A released `lake` binary already contains every official plugin, and it still accepts extras. Any `.so` found under `PLUGIN_DIR` (default `bin/plugins`) is opened at startup and registered on top of the compiled-in set, so you can add a custom plugin — or replace an official one — without rebuilding DevLake.
+
+Two things to know before you try it:
+
+- The `.so` has to be built with `go build -buildmode=plugin` against the **same DevLake version, Go toolchain, build flags and dependency versions** as the binary that loads it. Go rejects a plugin whose copy of a shared package differs, so build it in the matching `lake-builder` image rather than on your host.
+- A plugin that fails to load is logged and skipped. The server keeps running without it, so check the log after adding one.
+
+The plugin entry point (`PluginEntry`, implementing `plugin.PluginMeta`) and the interfaces a plugin can implement are described in the [plugin development manual](https://github.com/apache/devlake/blob/main/backend/DevelopmentManual.md).
 
 ## References
 
