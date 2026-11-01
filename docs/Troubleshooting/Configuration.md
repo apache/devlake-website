@@ -19,7 +19,7 @@ description: >
 There might be two problems when trying to collect data from a private GitLab server with a self-signed certificate:
 
 1. "Test Connection" error. This can be solved by setting the environment variable `IN_SECURE_SKIP_VERIFY=true` for the `devlake` container
-2. "GitExtractor" fails to clone the repository due to certificate verification, sadly, neither gogit nor git2go we are using supports insecure HTTPS.
+2. "GitExtractor" fails to clone the repository due to certificate verification. Setting `IN_SECURE_SKIP_VERIFY=true` also disables TLS verification for the git clone (`GIT_SSL_NO_VERIFY=true`).
 
 A better approach would be adding your root CA to the `devlake` container:
 
