@@ -174,6 +174,21 @@ config-ui:
 
 6. Final step: `docker compose up -d`
 
+### Can I add my own plugin to the DevLake image?
+
+The `apache/devlake` image ships a single binary that already contains every official plugin, so there is nothing to install for the supported data sources. If you need one that is not included, build it as a shared object and mount it into the container:
+
+```yaml
+devlake:
+  ...
+  volumes:
+    - ./plugins:/app/bin/plugins
+```
+
+The directory is scanned at startup and each `<name>.so` is registered on top of the built-in plugins; one that reuses an existing plugin's name replaces it. A plugin that fails to load is logged and skipped, and the server keeps running without it. `PLUGIN_DIR` already defaults to `/app/bin/plugins` in the image, so the mount is all you need.
+
+The plugin has to be built against the same DevLake release and Go toolchain as the running image, or it will be rejected at load time — build it in the matching `lake-builder` image rather than on your host. See [Sideloading plugins](../DeveloperManuals/DeveloperSetup.md#sideloading-plugins) for the details.
+
 ## Troubleshooting
 
 If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/devlake/issues)

@@ -121,10 +121,54 @@ For provisioning, customizing, and creating dashboards, please refer to our [Gra
 
 ## Compiling
 
-    - Compile all plugins: `make build-plugin`
-    - Compile specific plugins: `PLUGIN=<PLUGIN_NAME> make build-plugin`
-    - Compile server: `make build`
-    - Compile worker: `make build-worker`
+`make build` produces a single `bin/lake` binary: the framework, the API and every official plugin are compiled into it.
+
+```sh
+cd backend
+make build
+```
+
+While iterating you usually do not want all of them. `DEVLAKE_PLUGINS` takes a comma-separated list:
+
+```sh
+DEVLAKE_PLUGINS=jira,gitlab make build
+```
+
+That variable also decides what the registry generator writes to `backend/plugins/all/all.go`, which is checked in. Run `make plugins-registry` without `DEVLAKE_PLUGINS` before committing, or CI's drift check will fail.
+
+Release builds strip symbols. Set `DEVLAKE_DEBUG=1` to keep them, and use `make debug` to start the server under `dlv`.
+
+To build plugins as shared objects instead — for sideloading, or for a server without any plugin compiled in — use:
+
+```sh
+make build-plugin                              # every plugin
+DEVLAKE_PLUGINS=jira,gitlab make build-plugin  # a subset
+```
+
+The output lands in `bin/plugins/<name>/<name>.so`; set `PLUGIN_DIR` to write it somewhere else.
+
+A server with no plugin compiled in is built with an empty registry:
+
+```sh
+DEVLAKE_PLUGINS=none make build
+```
+
+The `devlake_external_plugins` build tag selects the same empty registry and makes the intent explicit:
+
+```sh
+go build -tags devlake_external_plugins -o bin/lake ./server
+```
+
+## Sideloading plugins
+
+A released `lake` binary already contains every official plugin, and it still accepts extras. Any `.so` found under `PLUGIN_DIR` (default `bin/plugins`) is opened at startup and registered on top of the compiled-in set, so you can add a custom plugin — or replace an official one — without rebuilding DevLake.
+
+Two things to know before you try it:
+
+- The `.so` has to be built with `go build -buildmode=plugin` against the **same DevLake version, Go toolchain, build flags and dependency versions** as the binary that loads it. Go rejects a plugin whose copy of a shared package differs, so build it in the matching `lake-builder` image rather than on your host.
+- A plugin that fails to load is logged and skipped. The server keeps running without it, so check the log after adding one.
+
+The plugin entry point (`PluginEntry`, implementing `plugin.PluginMeta`) and the interfaces a plugin can implement are described in the [plugin development manual](https://github.com/apache/devlake/blob/main/backend/DevelopmentManual.md).
 
 ## References
 

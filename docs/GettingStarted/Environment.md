@@ -8,6 +8,20 @@ This document explains how to set environment variables for Apache DevLake and w
 
 ## Environment Variables
 
+### PLUGIN_DIR
+
+Directory scanned at startup for shared-object plugins (`.so`). The released binary already contains every official plugin; anything found here is loaded on top of that set, which makes this the directory to use for a custom or third-party plugin.
+
+| Environment Variable | Description                                                                            | Default Value |
+| -------------------- | -------------------------------------------------------------------------------------- | ------------- |
+| `PLUGIN_DIR`         | Directory scanned for sideloaded `.so` plugins. A missing directory is not an error.   | `bin/plugins` |
+
+- In the Docker image, mount your plugins over `/app/bin/plugins`.
+- A plugin that fails to load — usually a toolchain or dependency mismatch — is logged and skipped; the server keeps running without it.
+- A sideloaded plugin whose name matches an official plugin overrides it, and the override is logged as a warning.
+
+See [Sideloading plugins](../DeveloperManuals/DeveloperSetup.md#sideloading-plugins) for how to build one.
+
 ### ENABLE_SUBTASKS_BY_DEFAULT
 
 This environment variable is used to enable or disable the execution of subtasks.
