@@ -124,9 +124,4 @@ curl 'http://localhost:8080/pipelines' \
 }'
 ```
 
-## Development
-
-This plugin depends on `libgit2`, you need to install version 1.3.0 in order to run and debug this plugin on your local
-machine. [Click here](./gitextractor.md#Development) for a brief guide.
-
 <br/><br/><br/>

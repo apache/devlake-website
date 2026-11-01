@@ -10,6 +10,7 @@ sidebar_position: 1
 
 - <a href="https://docs.docker.com/get-docker" target="_blank">Docker v19.03.10+</a>
 - <a href="https://golang.org/doc/install" target="_blank">Golang v1.19+</a>
+- <a href="https://git-scm.com/downloads" target="_blank">Git 2.31+</a> (used by the `gitextractor` plugin)
 - <a href="https://www.gnu.org/software/make/" target="_blank">GNU Make</a>
   - Mac (Preinstalled)
   - Windows: [Download](http://gnuwin32.sourceforge.net/packages/make.htm)
@@ -27,9 +28,8 @@ The following guide will walk through how to run DevLake's frontend (`config-ui`
    cd devlake
    ```
 
-2. Install dependencies for plugins:
-
-   - [RefDiff](../Plugins/refdiff.md#development)
+2. Make sure `git` (2.31 or newer) is on your `PATH`. The `gitextractor` plugin
+   uses it to clone and read repositories; no other plugin dependencies are required.
 
 3. Install Go packages
 
@@ -108,15 +108,9 @@ For provisioning, customizing, and creating dashboards, please refer to our [Gra
 ## Troubleshooting
 
 
-    Q: Running `make dev` yields error: `libgit2.so.1.3: cannot open share object file: No such file or directory`
+    Q: Running `make dev` yields `git: executable file not found in $PATH`
 
-    A: `libgit2.so.1.3` is required by the gitextractor plugin and should be . Make sure your program can find `libgit2.so.1.3`. `LD_LIBRARY_PATH` can be assigned like this if your `libgit2.so.1.3` is located at `/usr/local/lib`:
-
-    ```sh
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-    ```
-   
-    Note that the version has to be pinned to 1.3.0. If you don't have it, you may need to build it manually with CMake from [source](https://github.com/libgit2/libgit2/releases/tag/v1.3.0).
+    A: The `gitextractor` plugin clones and reads repositories with the `git` command line. Install git 2.31 or newer and make sure it is on your `PATH`.
 
 
 ## Compiling
