@@ -134,14 +134,30 @@ While iterating you usually do not want all of them. `DEVLAKE_PLUGINS` takes a c
 DEVLAKE_PLUGINS=jira,gitlab make build
 ```
 
-To build plugins as shared objects instead — to sideload them into an existing binary, or to ship a server without any plugin compiled in — use:
+That variable also decides what the registry generator writes to `backend/plugins/all/all.go`, which is checked in. Run `make plugins-registry` without `DEVLAKE_PLUGINS` before committing, or CI's drift check will fail.
+
+Release builds strip symbols. Set `DEVLAKE_DEBUG=1` to keep them, and use `make debug` to start the server under `dlv`.
+
+To build plugins as shared objects instead — for sideloading, or for a server without any plugin compiled in — use:
 
 ```sh
 make build-plugin                              # every plugin
 DEVLAKE_PLUGINS=jira,gitlab make build-plugin  # a subset
 ```
 
-The output lands in `bin/plugins/<name>/<name>.so`.
+The output lands in `bin/plugins/<name>/<name>.so`; set `PLUGIN_DIR` to write it somewhere else.
+
+A server with no plugin compiled in is built with an empty registry:
+
+```sh
+DEVLAKE_PLUGINS=none make build
+```
+
+The `devlake_external_plugins` build tag selects the same empty registry and makes the intent explicit:
+
+```sh
+go build -tags devlake_external_plugins -o bin/lake ./server
+```
 
 ## Sideloading plugins
 

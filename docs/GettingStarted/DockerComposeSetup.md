@@ -185,7 +185,7 @@ devlake:
     - ./plugins:/app/bin/plugins
 ```
 
-The directory is scanned at startup and each `<name>.so` is registered on top of the built-in plugins; one that reuses an existing plugin's name replaces it. A plugin that fails to load is logged and skipped, and the server keeps running without it.
+The directory is scanned at startup and each `<name>.so` is registered on top of the built-in plugins; one that reuses an existing plugin's name replaces it. A plugin that fails to load is logged and skipped, and the server keeps running without it. `PLUGIN_DIR` already defaults to `/app/bin/plugins` in the image, so the mount is all you need.
 
 The plugin has to be built against the same DevLake release and Go toolchain as the running image, or it will be rejected at load time — build it in the matching `lake-builder` image rather than on your host. See [Sideloading plugins](../DeveloperManuals/DeveloperSetup.md#sideloading-plugins) for the details.
 

@@ -12,9 +12,9 @@ This document explains how to set environment variables for Apache DevLake and w
 
 Directory scanned at startup for shared-object plugins (`.so`). The released binary already contains every official plugin; anything found here is loaded on top of that set, which makes this the directory to use for a custom or third-party plugin.
 
-| Environment Variable | Description                                                                          | Default Value |
-| -------------------- | ------------------------------------------------------------------------------------ | ------------- |
-| `PLUGIN_DIR`         | Directory scanned for sideloaded `.so` plugins. A missing directory is not an error.  | `bin/plugins` |
+| Environment Variable | Description                                                                            | Default Value |
+| -------------------- | -------------------------------------------------------------------------------------- | ------------- |
+| `PLUGIN_DIR`         | Directory scanned for sideloaded `.so` plugins. A missing directory is not an error.   | `bin/plugins` |
 
 - In the Docker image, mount your plugins over `/app/bin/plugins`.
 - A plugin that fails to load — usually a toolchain or dependency mismatch — is logged and skipped; the server keeps running without it.
