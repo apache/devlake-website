@@ -25,6 +25,8 @@ The number of deployments affected by incidents/total number of deployments. For
 
 When there are multiple deployments triggered by one pipeline, tools like GitLab and BitBucket will generate more than one deployment. In these cases, DevLake will consider these deployments as ONE deployment and use the last deployment's finished date as the deployment finished date.
 
+An incident is related to the last successful production deployment of the project that finished before the incident was created. If the incident's `component` matches one of the project's CI/CD scopes, by name (such as `owner/repo`) or id, case-insensitive, only that scope's deployments are considered, so in a project with several repositories the incident counts against the release of the repository that caused it. If the component matches no scope, or that scope has no earlier production deployment, the project-wide rule applies.
+
 Below are the 2023 DORA benchmarks for different development teams from Google's report. However, it's difficult to tell which group a team falls into when the team's change failure rate is between 15% and 64%. Therefore, DevLake provides its own benchmarks to address this problem:
 
 | Groups            | Benchmarks | DevLake Benchmarks |
