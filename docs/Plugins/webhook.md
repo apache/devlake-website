@@ -14,6 +14,8 @@ In v0.14+, users can push "incidents" and "deployments" required by DORA metrics
 
 Webhooks are meant to be used at the lowest level that you want to relate incidents with deployments. For example, if you want to relate incidents at the individual service level, you will need a webhook per service. If you wish to relate incidents at the product level, you will need a webhook for the product. This is because incidents on a project will be related to the last deployment on the project with a timestamp that is before the incident's timestamp. This is true regardless of the source of incidents or deployments.
 
+If an incident's `component` matches one of the project's CI/CD scopes, by the scope's name (such as `owner/repo`) or its id, case-insensitive, only that scope's production deployments are considered. This lets a project with several repositories relate an incident to the release of the repository that caused it, instead of to whichever repository deployed last. If the component matches no scope, or that scope has no production deployment before the incident, the project-wide rule above applies.
+
 Note: If you post incidents using webhook due to your tool not being supported but your deployments are collected via plugins automatically, you need to re-collect data for deployments for the posted incidents to get mapped to deployments based on timestamps. This is required for Change Failure Rate (DORA) metric to show up correctly for the project.
 
 Diagram of the relationship between incidents and deployments:
@@ -208,7 +210,7 @@ needs to be called when an issue or incident is created. The body should be a JS
 |        assigneeId        |  ✖️ No   |                                                               |
 |       assigneeName       |  ✖️ No   |                                                               |
 |         severity          |  ✖️ No   |                                                               |
-|         component         |  ✖️ No   |                              |
+|         component         |  ✖️ No   | For an incident: the CI/CD scope that caused it, by name (such as `owner/repo`) or id. DORA then relates the incident to that scope's last production deployment before it. See [Summary](#summary). |
 
 More information about these columns at the [domain layer issues table](/DataModels/DevLakeDomainLayerSchema.md#issues).
 
